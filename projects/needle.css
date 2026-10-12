@@ -1,0 +1,168 @@
+/* Original RCM drawings and source pages retain their aspect ratios. */
+.needle-overview, .needle-mechanism, .manual-mode-layout { display:grid; grid-template-columns:1fr 1fr; gap:28px; align-items:center; }
+.needle-page figure { min-width:0; margin:0; }
+.needle-page figcaption { font-size:11px; color:var(--muted); margin:8px 0 18px; }
+.needle-overview img { height:340px; object-fit:contain; }
+.needle-mechanism img { max-height:520px; object-fit:contain; }
+.needle-components { margin-top:24px; }
+.table-wrap { overflow-x:auto; }
+.needle-components table { width:100%; border-collapse:collapse; font-size:12px; }
+.needle-components th, .needle-components td { text-align:left; padding:10px 14px; border-bottom:1px solid var(--line); }
+.needle-components th { background:var(--soft); color:var(--green); }
+.full-derivation { margin:28px 0 !important; }
+.full-derivation img { width:100%; height:auto; display:block; }
+.page-click-hint { display:flex; flex-direction:column; align-items:center; gap:3px; border:0; background:none; color:var(--green); font:700 13px/1.5 Arial,sans-serif; padding:8px 18px; margin:0 auto 9px; cursor:pointer; }
+.page-click-hint span:last-child { font-size:24px; animation:needle-click 1.6s ease-in-out infinite; }
+@keyframes needle-click { 50% { transform:translateY(5px); } }
+.equation-result { margin-top:34px; }
+.equation-row { padding:16px 0; border-bottom:1px solid var(--line); }
+.equation-row-heading { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.equation-row-heading > span { font-size:11px; color:var(--muted); }
+.equation-copy { border:1px solid var(--line); border-radius:6px; background:var(--paper); color:var(--green); padding:6px 10px; font-size:11px; }
+.equation-math { overflow-x:auto; padding:16px 2px 8px; font-size:20px; color:var(--ink); }
+.equation-math math { width:max-content; margin:0; text-align:left; }
+.equation-source { width:100%; min-height:90px; padding:12px; box-sizing:border-box; background:var(--paper); color:var(--ink); border:1px solid var(--line); }
+.equation-copy-status { min-height:1.6em; color:var(--green); }
+.needle-workspace-details, .needle-motion-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+.needle-workspace-details img { height:320px; object-fit:contain; }
+.manual-mode-controls { display:flex; flex-wrap:wrap; gap:8px; margin:20px 0; }
+.manual-mode-controls button { padding:9px 16px; border:1px solid var(--line); background:var(--surface); border-radius:7px; color:var(--green); }
+.manual-mode-controls button[aria-pressed=true] { background:var(--green); color:var(--paper); }
+.manual-mode-layout > figure img { height:480px; object-fit:contain; }
+.manual-mode-layout > div img { max-height:250px; object-fit:contain; }
+.needle-motion-grid video { width:100%; aspect-ratio:16/10; object-fit:contain; background:white; border:1px solid var(--line); border-radius:9px; }
+.needle-page .drawing-frame .image-button { height:500px; }
+.needle-page .drawing-frame img { width:100%; height:100%; object-fit:contain; transform:none; }
+.needle-patent { background:var(--soft); border-left:2px solid var(--green); padding:24px; border-radius:0 9px 9px 0; }
+.needle-page .document-grid { margin-top:24px; }
+.project-lightbox.is-page-zoom { width:100vw; max-width:100vw; height:100dvh; max-height:100dvh; margin:0; border:0; border-radius:0; padding:12px; box-sizing:border-box; }
+.project-lightbox.is-page-zoom[open] { display:flex; flex-direction:column; }
+.is-page-zoom .lightbox-image-stage { flex:1; min-height:0; overflow:auto; display:block; }
+.is-page-zoom .lightbox-image-stage img { width:100%; max-width:none; height:auto; max-height:none; }
+.lightbox-close { color:#c63434; font-size:34px; width:44px; height:44px; }
+.lightbox-return { border:1px solid var(--green); border-radius:7px; color:var(--green); background:var(--soft); padding:9px 13px; }
+@media(max-width:600px) { .needle-overview,.needle-mechanism,.manual-mode-layout,.needle-motion-grid { grid-template-columns:1fr; } .needle-page .drawing-frame .image-button { height:310px; } .equation-math { font-size:17px; } }
+@media(prefers-reduced-motion:reduce) { .page-click-hint span:last-child { animation:none; } }
+.enlarge-cursor { position: fixed; z-index: 1200; pointer-events: none; opacity: 0; transition: opacity .15s ease; color: var(--green); }
+.enlarge-cursor.is-visible { opacity: 1; }
+.enlarge-cursor-ring { position: absolute; display: grid; place-items: center; width: 28px; height: 28px; box-sizing: border-box; border: 1.5px solid var(--green); border-radius: 50%; background: var(--surface); transform: translate(-50%, -50%); }
+.enlarge-cursor-ring::before { content: ''; position: absolute; inset: -2px; border: 1px solid var(--green); border-radius: 50%; opacity: 0; }
+.enlarge-cursor.is-visible .enlarge-cursor-ring::before { animation: enlarge-cursor-pulse 1.5s ease-out infinite; }
+.enlarge-cursor-label { position: absolute; left: 23px; top: 15px; white-space: nowrap; padding: 7px 11px; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); font: 11px/1.4 Arial, sans-serif; box-shadow: 0 3px 12px rgb(6 27 25 / .12); }
+.enlarge-cursor.is-left .enlarge-cursor-label { left: auto; right: 23px; }
+.enlarge-cursor.is-above .enlarge-cursor-label { top: auto; bottom: 15px; }
+@keyframes enlarge-cursor-pulse { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(1.8); opacity: 0; } }
+@media (hover: hover) and (pointer: fine) {
+  .full-derivation .has-enlarge-cursor, .full-validation .has-enlarge-cursor { cursor: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .enlarge-cursor { transition: none; }
+  .enlarge-cursor.is-visible .enlarge-cursor-ring::before { animation: none; }
+}
+
+/* Separate the cover image from the project overview. */
+.needle-overview { margin-top: 24px; padding-top: 28px; border-top: 1px solid var(--line); }
+
+/* The page follows the design decisions before opening source documents. */
+.needle-page .case-main p { text-align:justify; }
+.needle-page .section-heading .eyebrow { margin:0 0 4px; font-size:10px; letter-spacing:1.25px; text-transform:uppercase; color:var(--green); }
+.rcm-principle-layout, .derivation-intro { display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:center; margin:24px 0 30px; }
+.rcm-principle-layout .image-button { background:white; }
+.rcm-principle-layout img { height:330px; object-fit:contain; }
+.needle-mechanism { padding-top:28px; border-top:1px solid var(--line); }
+.development-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin:24px 0 32px; }
+.development-step { min-width:0; border:1px solid var(--line); border-radius:10px; padding:20px; background:var(--surface); }
+.development-step-heading { display:flex; align-items:baseline; gap:14px; margin-bottom:15px; }
+.development-step-heading > span { font-size:12px; color:var(--green); }
+.development-step-heading h3 { margin:0; font-size:21px; }
+.development-step img { width:100%; height:250px; object-fit:contain; }
+.development-step .image-button { background:white; }
+.development-step p { margin-bottom:0; font-size:13px; }
+.revised-build { padding-top:24px; border-top:1px solid var(--line); }
+.build-detail-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:20px; }
+.build-detail-grid img { height:330px; object-fit:contain; }
+.derivation-intro img { height:350px; object-fit:contain; }
+.geometry-definitions { margin:18px 0; }
+.geometry-definitions > div { display:grid; grid-template-columns:95px 1fr; gap:15px; border-bottom:1px solid var(--line); padding:10px 0; }
+.geometry-definitions dt { font-size:12px; color:var(--muted); }
+.geometry-definitions dd { margin:0; font-size:13px; }
+.calculation-flow { list-style:none; display:grid; grid-template-columns:repeat(5,1fr); padding:0; margin:24px 0; border:1px solid var(--line); border-radius:9px; background:var(--soft); }
+.calculation-flow li { position:relative; display:grid; justify-items:center; gap:4px; padding:15px 6px; }
+.calculation-flow li + li { border-left:1px solid var(--line); }
+.calculation-flow li:not(:last-child)::after { content:'→'; position:absolute; right:-7px; top:19px; color:var(--green); background:var(--soft); }
+.calculation-flow strong { font:400 23px/1.3 Georgia,serif; color:var(--green); }
+.calculation-flow span { font-size:10px; color:var(--muted); }
+.derivation-result { padding:24px; margin:26px 0; border-left:2px solid var(--green); background:var(--soft); }
+.derivation-result h3 { margin:0; }
+.derivation-result math { margin:15px 0 0; width:max-content; font-size:25px; }
+.source-derivation, .component-disclosure { margin:24px 0; padding:16px 20px; background:var(--surface); border:1px solid var(--line); border-radius:9px; }
+.source-derivation > summary, .component-disclosure > summary { cursor:pointer; color:var(--green); font-weight:600; }
+.relation-study { padding-top:28px; margin-top:32px; border-top:1px solid var(--line); }
+.relation-study img { height:auto; width:100%; }
+.workspace-reading { display:grid; grid-template-columns:1fr 1fr; gap:32px; margin-top:18px; }
+.workspace-reading h3 { margin-top:0; }
+@media(max-width:650px) {
+ .rcm-principle-layout,.derivation-intro,.development-grid,.workspace-reading { grid-template-columns:1fr; gap:20px; }
+ .development-step { padding:16px; }
+ .development-step img { height:250px; }
+ .build-detail-grid { gap:12px; }
+ .build-detail-grid img { height:220px; }
+ .rcm-principle-layout img, .derivation-intro img { height:auto; max-height:350px; }
+ .geometry-definitions > div { grid-template-columns:80px 1fr; }
+ .equation-row-heading > span { font-size:11px; line-height:1.5; }
+ .equation-copy { flex-shrink:0; }
+ .derivation-result { padding:18px; }
+ .source-derivation,.component-disclosure { padding:14px; }
+}
+
+.final-prototype-gallery { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin-top:22px; }
+.final-prototype-gallery img { height:330px; width:100%; object-fit:contain; }
+.prototype-status { font-size:12px; color:var(--muted); }
+.manual-release-study { margin-top:28px; padding-top:24px; border-top:1px solid var(--line); }
+.manual-release-study figure { max-width:720px; margin:22px auto 0; }
+.manual-release-study video { display:block; width:100%; background:white; border:1px solid var(--line); border-radius:9px; }
+@media(max-width:650px) { .final-prototype-gallery { grid-template-columns:1fr; } .final-prototype-gallery img { height:330px; } }
+
+.kinematic-structure-view img { height:460px; max-height:none; object-fit:contain; }
+.needle-extreme-layout { display:grid; grid-template-columns:1fr 1fr; gap:28px; align-items:center; margin-top:28px; padding-top:28px; border-top:1px solid var(--line); }
+.needle-extreme-layout img { height:330px; object-fit:contain; }
+@media(max-width:600px) { .needle-extreme-layout { grid-template-columns:1fr; } .kinematic-structure-view img { height:auto; max-height:460px; } .needle-extreme-layout img { height:auto; } }
+
+.derivation-diagram-pair { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin:24px 0; }
+.derivation-diagram-pair .image-button { background:white; }
+.derivation-diagram-pair img { width:100%; height:400px; object-fit:contain; }
+@media(max-width:600px) { .derivation-diagram-pair { grid-template-columns:1fr; } .derivation-diagram-pair img { height:auto; max-height:400px; } }
+
+/* Each mechanism image stays with its own heading and explanation. */
+.mechanism-card-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin-top:24px; }
+.mechanism-card { min-width:0; padding:20px; border:1px solid var(--line); border-radius:10px; background:var(--surface); }
+.mechanism-card > h3 { margin:18px 0 12px; font-size:22px; line-height:1.3; }
+.mechanism-card .image-button { background:white; }
+.mechanism-card img { width:100%; height:300px; object-fit:contain; }
+.mechanism-card > div { margin-top:0; }
+.mechanism-card p { margin:0 0 14px; font-size:13px; line-height:1.75; }
+.mechanism-card h4 { font-size:15px; color:var(--green); margin:20px 0 10px; }
+.mechanism-card p:last-child { margin-bottom:0; }
+@media(max-width:950px) { .mechanism-card-grid { grid-template-columns:1fr; } .mechanism-card > h3 { min-height:0; } }
+
+.needle-prototype-collage { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:15px; margin-top:25px; }
+.needle-prototype-collage .image-button { aspect-ratio:3/4; background:var(--soft); }
+.needle-prototype-collage img { width:100%; height:100%; object-fit:contain; }
+.needle-prototype-collage figcaption { margin:8px 0 12px; font-size:11px; }
+@media(max-width:1100px) { .needle-prototype-collage { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+@media(max-width:600px) { .needle-prototype-collage { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; } }
+
+.mechanism-position-pair { height:300px; display:grid; grid-template-rows:1fr 1fr; gap:8px; }
+.mechanism-position-pair figure { min-height:0; margin:0; display:grid; grid-template-rows:minmax(0,1fr) auto; gap:4px; }
+.mechanism-position-pair .image-button { min-height:0; height:100%; }
+.mechanism-position-pair img { height:100%; }
+.mechanism-position-pair figcaption { margin:0; text-align:center; font-size:11px; line-height:1.4; }
+
+.needle-module-components { margin:28px 0 !important; }
+.needle-module-components .image-button { background:white; }
+.needle-module-components img { width:100%; height:auto; display:block; }
+
+.needle-page .case-toc { border-bottom:1px solid var(--line); }
+
+.component-disclosure { padding:20px 24px; }
+.component-disclosure > summary { font-size:16px; line-height:1.6; }

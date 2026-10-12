@@ -1,0 +1,109 @@
+{
+  "projectFolder": "https://drive.google.com/drive/folders/17ZdQKjyy8urP4PI6cTH5U66saNfUJY8r",
+  "certificateFolder": "https://drive.google.com/drive/folders/198TIlYKhwQuPtX5ge__tYrqXLF0Nnf9j",
+  "cover": {
+    "file": "hero-cover.png",
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "composition": "Original CAD views, mesh and 200 N deformation study; complete source images fitted without cropping.",
+    "images": [
+      {
+        "file": "iso2.png",
+        "source": "C:\\Users\\shobi\\Desktop\\Patents\\1. Monolithic Compliant Mechanism based Hand Grip Strength Analyzer\\Photos\\iso2.png"
+      },
+      {
+        "file": "front.png",
+        "source": "C:\\Users\\shobi\\Desktop\\Patents\\1. Monolithic Compliant Mechanism based Hand Grip Strength Analyzer\\Photos\\Handgrip.png"
+      },
+      {
+        "file": "mesh.png",
+        "source": "C:\\Users\\shobi\\Desktop\\Patents\\1. Monolithic Compliant Mechanism based Hand Grip Strength Analyzer\\Photos\\Mesh.png"
+      },
+      {
+        "file": "deflection-200.png",
+        "source": "C:\\Users\\shobi\\AppData\\Local\\Temp\\grip-cover-iy58ewk_\\deflection-200.png"
+      }
+    ],
+    "editableSource": "hero-cover.svg"
+  },
+  "report": {
+    "file": "technical-report.pdf",
+    "driveId": "19hVVxmFS7NeV93wbS6Rgu8ZMsua5mlOq",
+    "pages": 5
+  },
+  "certificate": {
+    "file": "patent-certificate.pdf",
+    "driveId": "1Xjrd0fngaNHMh77V8OdxjAfI1yIeH9R9",
+    "designNumber": "6552811",
+    "grantDate": "2026-09-22"
+  },
+  "patentReport": {
+    "file": "patent-report.pdf",
+    "pages": 6,
+    "order": [
+      "patent-certificate.pdf",
+      "technical-report.pdf"
+    ]
+  },
+  "analysis": {
+    "loads": [
+      10,
+      50,
+      200
+    ],
+    "policy": "Original load images preserved; report design targets distinguished from supplied analysis evidence.",
+    "referenceComparison": {
+      "baseline_N": 400,
+      "reference_N": [
+        40,
+        400,
+        800
+      ],
+      "originalImageLoads_N": [
+        10,
+        50,
+        200
+      ],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11863340/",
+      "basis": "Rounded midpoint of male and female 30-39 year norms; illustrative comparison, not universal population mean. Original FEA load captions retained."
+    }
+  },
+  "deflectionScale": {
+    "source": "technical-report.pdf, page 2, adult example",
+    "model": "Euler-Bernoulli single cantilever beam",
+    "formula": "delta = F L^3 / (3 E I); I = b t^3 / 12",
+    "length_mm": 120.0,
+    "width_mm": 20.0,
+    "thickness_mm": 4.5,
+    "modulus_N_per_mm2": 200000.0,
+    "inertia_mm4": 151.875,
+    "stiffness_N_per_mm": 52.734375,
+    "loadRange_N": [
+      0,
+      600
+    ],
+    "files": [
+      "deflection-scale.png",
+      "deflection-scale.svg",
+      "deflection-scale.pdf",
+      "deflection-scale.csv"
+    ],
+    "scope": "Calculated beam example, not measured FEA or calibrated pointer readings."
+  },
+  "pointerForceScale": {
+    "file": "pointer-force-scale.svg",
+    "baseImage": "Handgrip.png",
+    "homeLoad_N": 0,
+    "illustratedLabels_N": [
+      0,
+      200,
+      400,
+      600,
+      800
+    ],
+    "scope": "Schematic pointer-path marking layout; final angular positions require known-load calibration.",
+    "path": "Variable-curvature cubic Bezier schematic, without a fixed rotational pivot."
+  }
+}

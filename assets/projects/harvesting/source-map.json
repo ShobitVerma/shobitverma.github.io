@@ -1,0 +1,489 @@
+{
+  "project": "Integrated 6-bar Kinematic Harvesting Tool with Grappling Mechanism for Efficient Pedicle Cutting",
+  "driveFolder": "https://drive.google.com/drive/folders/1GqsWTYCcs0u6AQu857FFmphoUWVC4Aaf",
+  "technicalReport": {
+    "file": "technical-report.pdf",
+    "driveId": "1NvE-9o8H3zGZMXChDlDvR-d5e1rk5tkr",
+    "pages": 18
+  },
+  "certificate": {
+    "file": "patent-certificate.pdf",
+    "driveId": "1BHsBrrXX2S_6By8uomAzh9yXYd1_rSXs",
+    "pages": 1,
+    "note": "Original certificate preserved; website uses the harvesting project title as requested."
+  },
+  "patentReport": {
+    "file": "patent-report.pdf",
+    "pages": 19,
+    "order": [
+      "patent-certificate.pdf",
+      "technical-report.pdf"
+    ],
+    "validation": "Every page has identical dimensions and pixel-identical appearance to the source at 0.5 render scale."
+  },
+  "derivation": {
+    "file": "governing-equation-derivation.pdf",
+    "driveId": "1QkCI_OJ4BoB6q2dr5AdeThHcY9UriNt8",
+    "pages": 2,
+    "equations": "1-20 and final governing result",
+    "policy": "Original PDF and rendered equation crops; no mathematical transcription or algebraic changes.",
+    "crops": {
+      "parameters": [
+        48,
+        387,
+        597,
+        566
+      ],
+      "figure-1": [
+        85,
+        97,
+        585,
+        373
+      ],
+      "figure-2": [
+        65,
+        574,
+        590,
+        992
+      ],
+      "figure-3": [
+        145,
+        1199,
+        474,
+        1382
+      ],
+      "figure-4": [
+        735,
+        0,
+        1067,
+        274
+      ],
+      "figure-5": [
+        617,
+        428,
+        1188,
+        859
+      ],
+      "equations-1-3": [
+        48,
+        998,
+        600,
+        1191
+      ],
+      "equations-4-7": [
+        48,
+        1392,
+        508,
+        1643
+      ],
+      "equations-8-11": [
+        620,
+        273,
+        1137,
+        424
+      ],
+      "equations-12-14": [
+        618,
+        861,
+        1122,
+        1041
+      ],
+      "equations-15-17": [
+        618,
+        1048,
+        1126,
+        1208
+      ],
+      "equations-18-20": [
+        618,
+        1209,
+        1124,
+        1379
+      ],
+      "governing-result": [
+        508,
+        1384,
+        1190.25,
+        1617
+      ]
+    },
+    "confirmedByUser": true,
+    "websitePresentation": "The original full colour derivation page is displayed directly in normal page scroll, without separate equation cards.",
+    "finalEquation": {
+      "file": "final-governing-equation.png",
+      "page": 1,
+      "clip": [
+        508,
+        1472,
+        1190.25,
+        1615
+      ],
+      "renderScale": 3,
+      "policy": "Original final equation and adjoining dependency expressions from equations 4, 15, 17, 18 and 10, with their original relative layout. The original parameter list is displayed below."
+    }
+  },
+  "images": {
+    "prototype-family.jpg": "Portfolio_ Shobit Verma-p4-im2.jpeg",
+    "prototype-eight-bar.jpg": "scissor - Taiwan-p8-im2.jpeg",
+    "prototype-six-bar-a.jpg": "scissor - Taiwan-p10-im2.jpeg",
+    "prototype-six-bar-b.jpg": "scissor - Taiwan-p10-im3.jpeg",
+    "prototype-six-bar-c.jpg": "scissor - Taiwan-p10-im4.jpeg",
+    "field-harvesting.png": "Shobit Verma week 6-7-p11-im1.png",
+    "field-tomatoes.png": "Shobit Verma week 6-7-p11-im2.png",
+    "field-hand-test.png": "Shobit Verma week 6-7-p11-im3.png",
+    "phase-initial.jpg": "scissor - Taiwan-p13-im1.jpeg",
+    "phase-hooked.jpg": "scissor - Taiwan-p13-im2.jpeg",
+    "phase-pulled.jpg": "scissor - Taiwan-p13-im3.jpeg",
+    "phase-held.png": "scissor - Taiwan-p13-im4.png",
+    "harvesting-concept.png": "Portfolio_ Shobit Verma-p4-im11.png"
+  },
+  "weeklyEvidence": {
+    "earlyConcept": "Shobit Verma week 4&5.pdf page 11",
+    "prototypeAndFieldTests": "Shobit Verma week 6&7.pdf pages 8-11",
+    "laterVersions": "scissor - Taiwan.pdf pages 8-11"
+  },
+  "respiratoryFollowup": "Completed: five assembly photographs updated from weeks 4&5 after the harvesting case study.",
+  "cover": {
+    "file": "hero-cover.jpg",
+    "source": "C:/Users/shobi/Downloads/me (3).pdf",
+    "original": "hero-cover.pdf",
+    "page": 1,
+    "render": "Entire original page rendered at 1920 x 1080; composition and colour preserved.",
+    "usedBy": [
+      "index.html project-harvesting",
+      "projects/harvesting.html hero"
+    ]
+  },
+  "simulation": {
+    "file": "motion-simulation.mp4",
+    "poster": "motion-simulation-poster.jpg",
+    "source": "C:/Users/shobi/Downloads/scissor - Taiwan.pptx",
+    "slide": 1,
+    "embeddedMedia": "ppt/media/VAGK7bZM_Gs.mp4",
+    "sha256": "d8ee7b98e3410a1aa668cf45140eb8448f4772d7504833af94e2e3c2be3f3d0b",
+    "policy": "Original embedded video and poster copied unchanged.",
+    "websiteVersion": {
+      "file": "motion-simulation-cropped.mp4",
+      "poster": "motion-simulation-cropped-poster.jpg",
+      "crop": {
+        "x": 680,
+        "y": 230,
+        "width": 580,
+        "height": 660
+      },
+      "sha256": "6179ee921026a31392dbbd1a587aec7ab6fc06e5133b527f2c2031b3e209a571",
+      "policy": "User-requested crop around moving linkage; original embedded video retained unchanged."
+    }
+  },
+  "stemStoryboard": {
+    "images": [
+      {
+        "file": "stem-hooking.png",
+        "preview": "stem-hooking-preview.png",
+        "source": "technical-report.pdf",
+        "page": 11,
+        "figure": 4,
+        "panel": "a",
+        "clip": [
+          160,
+          100,
+          1035,
+          510
+        ]
+      },
+      {
+        "file": "stem-pulling.png",
+        "preview": "stem-pulling-preview.png",
+        "source": "technical-report.pdf",
+        "page": 11,
+        "figure": 4,
+        "panel": "b",
+        "clip": [
+          160,
+          565,
+          1035,
+          940
+        ]
+      },
+      {
+        "file": "stem-holding.png",
+        "preview": "stem-holding-preview.png",
+        "source": "technical-report.pdf",
+        "page": 11,
+        "figure": 4,
+        "panel": "c",
+        "clip": [
+          160,
+          1005,
+          1035,
+          1380
+        ]
+      }
+    ],
+    "policy": "Original report panel drawings rendered at full size and preview size. Standalone letter labels omitted in panel exports; drawing geometry, motion arrows and numeric annotations preserved."
+  },
+  "prototypeGallery": {
+    "images": [
+      {
+        "file": "prototype-concept-10-bar.png",
+        "label": "10-bar concept",
+        "source": "design-presentation.pdf",
+        "page": 8,
+        "clip": [
+          114,
+          199,
+          364,
+          557
+        ]
+      },
+      {
+        "file": "prototype-3-8-bar.png",
+        "label": "Prototype 3, 8 bars",
+        "source": "design-presentation.pdf",
+        "page": 8,
+        "clip": [
+          421,
+          199,
+          659,
+          550
+        ]
+      },
+      {
+        "file": "prototype-4-8-bar.png",
+        "label": "Prototype 4, 8 bars",
+        "source": "design-presentation.pdf",
+        "page": 8,
+        "clip": [
+          696,
+          199,
+          964,
+          555
+        ]
+      },
+      {
+        "file": "prototype-7-8-bar.png",
+        "label": "Prototype 7, 8 bars",
+        "source": "design-presentation.pdf",
+        "page": 8,
+        "clip": [
+          1000,
+          199,
+          1243,
+          550
+        ]
+      },
+      {
+        "file": "prototype-8-6-bar.png",
+        "label": "Prototype 8, 6 bars",
+        "source": "design-presentation.pdf",
+        "page": 10,
+        "clip": [
+          414,
+          212,
+          603,
+          564
+        ]
+      },
+      {
+        "file": "prototype-9-6-bar.png",
+        "label": "Prototype 9, 6 bars",
+        "source": "design-presentation.pdf",
+        "page": 10,
+        "clip": [
+          668,
+          214,
+          902,
+          563
+        ]
+      },
+      {
+        "file": "prototype-10-6-bar.png",
+        "label": "Prototype 10, 6 bars",
+        "source": "design-presentation.pdf",
+        "page": 10,
+        "clip": [
+          956,
+          138,
+          1243,
+          579
+        ]
+      },
+      {
+        "file": "prototype-scissor-grey.png",
+        "label": "Grey scissor prototype",
+        "source": "design-presentation.pdf",
+        "page": 8,
+        "embeddedImage": 126,
+        "photoCoordinates": [
+          800,
+          600
+        ],
+        "clip": [
+          95,
+          200,
+          285,
+          470
+        ]
+      },
+      {
+        "file": "prototype-scissor-white.png",
+        "label": "White scissor prototype",
+        "source": "design-presentation.pdf",
+        "page": 8,
+        "embeddedImage": 126,
+        "photoCoordinates": [
+          800,
+          600
+        ],
+        "clip": [
+          295,
+          115,
+          470,
+          470
+        ]
+      }
+    ],
+    "policy": "Individual photographs and concept exported from original presentation framing; numbered prototypes and bar counts follow slide labels. No age or test-status labels."
+  },
+  "phaseDrawingCrops": [
+    {
+      "source": "phase-initial.jpg",
+      "file": "phase-initial-cropped.png",
+      "cropPixels": [
+        445,
+        45,
+        895,
+        825
+      ],
+      "policy": "Drawing sheet frame and title block removed by cropping; mechanism pixels unchanged."
+    },
+    {
+      "source": "phase-hooked.jpg",
+      "file": "phase-hooked-cropped.png",
+      "cropPixels": [
+        490,
+        80,
+        845,
+        775
+      ],
+      "policy": "Drawing sheet frame and title block removed by cropping; mechanism pixels unchanged."
+    },
+    {
+      "source": "phase-pulled.jpg",
+      "file": "phase-pulled-cropped.png",
+      "cropPixels": [
+        515,
+        50,
+        765,
+        775
+      ],
+      "policy": "Drawing sheet frame and title block removed by cropping; mechanism pixels unchanged."
+    }
+  ],
+  "mechanismFourViews": {
+    "file": "mechanism-four-views.png",
+    "explodedSource": {
+      "file": "technical-report.pdf",
+      "page": 8,
+      "clip": [
+        185,
+        265,
+        975,
+        1340
+      ]
+    },
+    "remainingSource": "mechanism-numbered.png",
+    "remainingCrops": [
+      [
+        125,
+        50,
+        615,
+        930
+      ],
+      [
+        660,
+        45,
+        1175,
+        940
+      ],
+      [
+        1200,
+        10,
+        1705,
+        940
+      ]
+    ],
+    "policy": "Four original drawings arranged left to right with equal visible height; no geometry changed."
+  },
+  "promisingVersions": {
+    "file": "promising-versions.png",
+    "source": "promising-versions-source.pdf",
+    "originalFilename": "Shobit Verma week 9 final.pdf",
+    "page": 1,
+    "policy": "Full original page rendered without changes."
+  },
+  "correctedPhasePositions": {
+    "source": "design-presentation.pdf",
+    "page": 13,
+    "pulling": {
+      "file": "phase-pulling.png",
+      "figure": "c",
+      "clip": [
+        850,
+        50,
+        1030,
+        595
+      ]
+    },
+    "holding": {
+      "file": "phase-holding.png",
+      "figure": "d",
+      "clip": [
+        1110,
+        40,
+        1305,
+        595
+      ]
+    },
+    "policy": "Original labelled third and fourth positions rendered directly without drawing frames or geometry changes."
+  },
+  "existingScissors": {
+    "file": "prototype-existing.png",
+    "sources": [
+      "prototype-scissor-grey.png",
+      "prototype-scissor-white.png"
+    ],
+    "policy": "Original photos placed side by side at equal height."
+  },
+  "fullValidation": {
+    "file": "verification-full-page.png",
+    "source": "governing-equation-derivation.pdf",
+    "page": 2,
+    "policy": "Full original page rendered with only the two Scissor constants labels removed at user request; original PDF unchanged."
+  },
+  "prototypeMotionVideo": {
+    "file": "prototype-motion-cropped.mp4",
+    "poster": "prototype-motion-poster.jpg",
+    "source": "scissor - Taiwan (1).pptx",
+    "embeddedFile": "ppt/media/VAGK7YlgnCc.mp4",
+    "crop": {
+      "width": 1046,
+      "height": 1080,
+      "x": 442,
+      "y": 0
+    },
+    "policy": "Black side bars cropped; full original motion retained."
+  },
+  "autonomousTomatoHarvesting": {
+    "file": "autonomous-tomato-harvesting.png",
+    "source": "technical-report.pdf",
+    "page": 17,
+    "clip": [
+      45,
+      345,
+      1140,
+      1340
+    ],
+    "policy": "Original robot-and-tomato illustration rendered without changing the drawing."
+  }
+}

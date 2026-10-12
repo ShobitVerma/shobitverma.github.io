@@ -1,0 +1,481 @@
+{
+  "report": {
+    "source": "C:/Users/shobi/Downloads/PKM_Respiratory_ Report.pdf",
+    "pages": 7
+  },
+  "presentation": {
+    "driveId": "1CNI2_gTw44vvnbXUiqVTnebijlbUTcKz",
+    "pages": 9
+  },
+  "presentationImages": {
+    "hero.jpg": "slide-9-image-1.jpeg",
+    "phantom-cad.png": "slide-5-image-2.png",
+    "joint-cad.png": "slide-6-image-5.png",
+    "joint-exploded.png": "slide-6-image-7.png",
+    "joint-prototype.jpg": "slide-6-image-4.jpeg",
+    "joint-in-hand.jpg": "slide-6-image-6.jpeg",
+    "joint-sketch.jpg": "slide-6-image-1.jpeg",
+    "joint-sketch-2.jpg": "slide-6-image-2.jpeg",
+    "assembly-top.jpg": "slide-7-image-1.jpeg",
+    "assembly-front.jpg": "slide-7-image-2.jpeg",
+    "assembly-angle.jpg": "slide-7-image-3.jpeg",
+    "assembly-side.jpg": "slide-7-image-4.jpeg",
+    "assembly-base.jpg": "slide-7-image-5.jpeg",
+    "assembly-joints.jpg": "slide-7-image-6.jpeg",
+    "assembly-plate.jpg": "slide-7-image-7.jpeg"
+  },
+  "cadViews": [
+    {
+      "id": "1bng4xz46nb0p0e0a5Vl3KbHh2K-CNCFw",
+      "name": "PKM respiratory (1).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1U4bqhcS0ayBJV1e728u_7nAP_xp2lXY5",
+      "name": "PKM respiratory (2).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1DBuIPWYWF9loLS30y_HRMLnUBTX0sI_y",
+      "name": "PKM respiratory (3).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1FpJGAMC0EJ6yjq8pHnPk-hTRYxqChX0K",
+      "name": "PKM respiratory (4).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "16kxGaQs-NwPusW6arc3qiaZyXEVw9Rrr",
+      "name": "PKM respiratory (5).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1NlcAd-i0SAKUNnYitq9uPQ_ao1XV0f0E",
+      "name": "PKM respiratory (6).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1OTeyFP_26PvTdMr1aL5-eG0_1NOI_3ep",
+      "name": "view (1).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1I7f4B_rN45E5NrAGG_hVz-DUBph1vBfV",
+      "name": "view (2).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1n2XF9UquvbkKA0AL_YbTXfooYhtTlbre",
+      "name": "view (3).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "14EYtpoWgW1In8IM-9U1dMwQy7uPX2lCH",
+      "name": "view (4).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1dmt7JX5fnRCoJhTpVi9vNU0s1vFq1flV",
+      "name": "view (5).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1NjLU5sgdipCNmERVWQva_KVT-uj6y30e",
+      "name": "view (6).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1GIWmmf38sCNlo_J7c7UMWyPIMOfGsYaA",
+      "name": "view (7).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1BshV8LQCgC3o3_Ta452TssSS8fl8EJah",
+      "name": "view (8).png",
+      "mime": "image/png"
+    },
+    {
+      "id": "1_xYbYcM3UpGPKeEdSfPMbV-GjZb88VTW",
+      "name": "view (9).png",
+      "mime": "image/png"
+    }
+  ],
+  "cadFiles": [
+    {
+      "id": "10UhxlYcAPc5dyLMV1RUH2dfDOr5a7SDF",
+      "name": "STEP",
+      "mime": "application/vnd.google-apps.folder"
+    },
+    {
+      "id": "14SUNMjFyOqgc2v_fxD3ai0CePQ9h3mUS",
+      "name": "_Assem_V2.SLDASM",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1Pm53uxeEhZyEs6XZyMIyHD8CcEjehRgQ",
+      "name": "_simulation fwd kinematics .SLDASM",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "19noRjZEQQZP7Z2l4qdo_-OineeNPMuA2",
+      "name": "_simulation inv kinematics .SLDASM",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "16YpNbhTD1VRJoYWYjYH2EfaFmIGE2pmS",
+      "name": "Actuator base 100mm.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1m7-5M8fXYz_pkotpuaTUgVZmm7W3Esrg",
+      "name": "Actuator inner 100mm.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1hwEDTjpOMblQKsXYHl-zYRU3jdXwcrmu",
+      "name": "base below mid.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1EPVn5p1J0ud5Sl7I1XDJQTl360vnvSe5",
+      "name": "base below.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1FpBuM432xIdbwDeOZ9v2pQbIQtHAvsuX",
+      "name": "base u support.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1t47ZnDADLq_PIox-fMRjsoUJWFfZPMin",
+      "name": "base.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1cnsVRj1S8H3ZIGbpwhR8xm5-4Nr5X-26",
+      "name": "bearing BR126 radial.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1Ykw5QWctkouJaR3deabDmlWG2PrYM-S8",
+      "name": "Bearing f612m thrust .SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1Zb9sl_FrvzRmVlbx7heVMJGPkg2sUPdK",
+      "name": "bottom u1.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "11sWy7F38SMbs3EvdoZal6flecB2vIioj",
+      "name": "bottom u2 connector.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1YyQLaDMnzUaia8mM0R-SYD7sFJNP2UVO",
+      "name": "bottom u2.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "13ZelakvoN_6gvmv_k5v-3bsRXyShj-io",
+      "name": "encoder acc bearing holder.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1VB4jx-AGioZAlzcl9asnFpXOCKn7AXmv",
+      "name": "encoder Assem.SLDASM",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1sRgSrJneB-ase-FoboxWEdUd8lel1hQ6",
+      "name": "encoder attachment.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1dNAkT8_2wu4w8MtaIsX2JBdLHlhN5WQR",
+      "name": "encoder bearing holder.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1pZ2TS_G4L7NjD0PjwMiiUYFSuCfX70jj",
+      "name": "encoder coupler.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1m9KsjeGVcOvmbmazBUXw1RlnooZER_uV",
+      "name": "encoder holder 1.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "17M7HUV7VqszenExr3IbMDKYQlCYiSnXy",
+      "name": "encoder holder 2 yoyo.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "119fR0MdEfx9xamkJI9J5TPtWmzoXciDb",
+      "name": "encoder holder 2.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "17h2JU-N5hxU77UxG-3rsIP4gg5P-E55v",
+      "name": "encoder holder 3.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1lKx1HZecPLblUZLqnhaQ7YapoPMwMVu6",
+      "name": "encoder.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1goEnphYOHJS2vXJUN26QCd3-HnrwnMpB",
+      "name": "outline.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1kGlz63_xpH5JzXtR7P6KbL7ESlPNJ__E",
+      "name": "Part1.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1_taZOMugj55TFIvxIEDmx_R2qtNyz63S",
+      "name": "phantom.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1v89rUpvTUE7agvrawdZgfSwwjADAmfko",
+      "name": "rotary+encoder infi.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1hZZOL1OmJBpRO8Iptv5Fwu4PaCrJsgSO",
+      "name": "shaft below.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1kugRbRUTxT4OFf-4YxD2fd2Yng5LJkTr",
+      "name": "shaft xtra.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1vyVf8i57OGtpMmgcrf8KIFKhZsj67ILK",
+      "name": "simulation.SLDASM",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1mwO25RuqRlSNLYk2JTtzaEuYPpbSBile",
+      "name": "Stewart respitory- version 1.rar",
+      "mime": "application/x-rar"
+    },
+    {
+      "id": "1-bsJn_cRrzaucGgTNBAPEhGydFi3hLPB",
+      "name": "Top u mid.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1JaIlUcUnUMYUFRMMYFmiRSVqz4Kg1GZd",
+      "name": "Top u1.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1loHL114pxwdH2d1p-oth99sB7c2XjG2R",
+      "name": "Top u2.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1rmd4x1cMZ_iWJJmZ36Y4SYH6QZlrIgD4",
+      "name": "top.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1I-EqcADOpLdTgsPaBlUw1fzlF_pXwu9R",
+      "name": "u mid.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1shoPWbWJ5VpKgOnAVAMywT4jj6dOeDrH",
+      "name": "wedge connector.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1GoZejpCdiwG7vfehCUWGlQD1k-FJSn9V",
+      "name": "wedge connector2.SLDPRT",
+      "mime": "application/sldworks"
+    },
+    {
+      "id": "1r05GU7L1OzWeLcwW-37MjznGYJ1szDNN",
+      "name": "wedge.SLDPRT",
+      "mime": "application/sldworks"
+    }
+  ],
+  "requirements": {
+    "driveId": "1cZcrEvg12a7FfknRsCmdCOTWZ0vahuTb",
+    "contentUse": "Mechanical construction and intended STM32, encoder and limit-switch architecture. No applicant addresses reproduced."
+  },
+  "canvaLinks": {
+    "presentation": "https://canva.link/dlhal761ck7xbkb",
+    "portfolio": "https://www.canva.com/design/DAGkoZMjtEQ/lEHSfNIwKdN7In0EMss81A/edit",
+    "status": "Direct access blocked; Drive presentation used."
+  },
+  "interactiveDemo": {
+    "geometry": "Illustrative anchors, not calibrated prototype",
+    "baseRadiusMm": 170,
+    "platformRadiusMm": 114,
+    "neutralHeightMm": 235,
+    "waveforms": "Report equations 13-15; full Rz Ry Rx rotation and inverse kinematics eqs 1-4."
+  },
+  "portfolio": {
+    "source": "C:/Users/shobi/Downloads/Portfolio_ Shobit Verma.pdf",
+    "pages": 24,
+    "respiratoryPages": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "images": {
+      "manufactured-parts.jpg": "page-9-image-4.jpeg",
+      "bearing-preparation.jpg": "page-9-image-3.jpeg",
+      "rework-parts.jpg": "page-9-image-1.jpeg",
+      "rework-components.jpg": "page-9-image-14.jpeg",
+      "controller-bench.jpg": "page-10-image-1.jpeg",
+      "integrated-hardware.jpg": "page-10-image-2.jpeg",
+      "cad-simulation.png": "page-10-image-3.png",
+      "manufacturing-profile.png": "page-9-image-2.png"
+    },
+    "updates": [
+      "20 kg phantom as design target, not independently measured load capacity",
+      "Completed STM32, HIWIN actuator/encoder and driver integration",
+      "Manufacturing and prototype rework",
+      "Workspace ranges as simulation results, original CAD axes preserved"
+    ]
+  },
+  "billOfMaterials": {
+    "file": "bill-of-materials.xlsx",
+    "sheets": [
+      "BOM"
+    ],
+    "table": "RespiratoryBOM",
+    "component_rows": 20,
+    "sources": [
+      "portfolio.pdf page 10",
+      "presentation.pdf slides 6 and 8"
+    ],
+    "layout": "Single component list with mechanical materials and portfolio electronics; no prices, formulas or confirmation notes."
+  },
+  "patentReport": {
+    "file": "patent-report.pdf",
+    "pages": 8,
+    "order": [
+      {
+        "source": "patent-filed.pdf",
+        "pages": [
+          1
+        ],
+        "original_path": "C:/Users/shobi/Downloads/Indian Patent Filed (1).pdf"
+      },
+      {
+        "source": "report.pdf",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "original_path": "C:/Users/shobi/Downloads/PKM Respiratory Report.pdf"
+      }
+    ],
+    "validation": "Page dimensions and rendered appearance match each source page; technical report updated 2026-10-11."
+  },
+  "designPresentation": {
+    "file": "design-presentation.pdf",
+    "pages": 12,
+    "order": [
+      {
+        "source": "presentation.pdf",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "source": "portfolio.pdf",
+        "pages": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "source": "presentation.pdf",
+        "pages": [
+          9
+        ]
+      }
+    ],
+    "validation": "Page dimensions and rendered appearance match each source page"
+  },
+  "editedImages": {
+    "phantom-cad-white.png": {
+      "source": "phantom-cad.png",
+      "tool": "Built-in imagegen",
+      "edit": "Replace mottled background and reflective floor artifacts with white. Preserve the CAD model, phantom container, camera angle and framing.",
+      "original_preserved": true
+    }
+  },
+  "coverImages": {
+    "hero-cover.jpg": {
+      "source": "C:/Users/shobi/Downloads/me (2).pdf",
+      "page": 1,
+      "width": 1920,
+      "height": 1080,
+      "extraction": "Entire PDF page rasterized without cropping or content changes",
+      "uses": [
+        "Main-page respiratory project card",
+        "Respiratory project hero and enlarged view"
+      ]
+    }
+  },
+  "weeklyAssemblyPhotos": {
+    "source": "Shobit Verma week 4&5.pdf",
+    "driveFolder": "https://drive.google.com/drive/folders/175sJeLAh7l03tL6DmibgGG7uZnzIFU2g",
+    "driveId": "1QrBiEChXwhvTqQQQdtQmboQvcSwXA6Fp",
+    "images": {
+      "assembly-base.jpg": {
+        "page": 5,
+        "imageIndex": 5,
+        "originalEmbeddedImage": "pkm-Shobit Verma week 4-5-p5-im5.jpeg"
+      },
+      "assembly-top.jpg": {
+        "page": 5,
+        "imageIndex": 1,
+        "originalEmbeddedImage": "pkm-Shobit Verma week 4-5-p5-im1.jpeg"
+      },
+      "assembly-joints.jpg": {
+        "page": 5,
+        "imageIndex": 6,
+        "originalEmbeddedImage": "pkm-Shobit Verma week 4-5-p5-im6.jpeg"
+      },
+      "assembly-front.jpg": {
+        "page": 3,
+        "imageIndex": 1,
+        "originalEmbeddedImage": "pkm-Shobit Verma week 4-5-p3-im1.jpeg"
+      },
+      "assembly-angle.jpg": {
+        "page": 4,
+        "imageIndex": 1,
+        "originalEmbeddedImage": "pkm-Shobit Verma week 4-5-p4-im1.jpeg"
+      }
+    },
+    "policy": "Original embedded photographs copied without modification. Wider full-platform views replace the earlier portrait views."
+  }
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100">
+  <defs>
+    <symbol id="mechanism" viewBox="0 0 320 100">
+      <g fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M50 78h220M75 70l45-43 82 18 37 25H75Zm45-43 119 43M75 70l127-25"/>
+        <circle cx="75" cy="70" r="7"/><circle cx="120" cy="27" r="7"/><circle cx="202" cy="45" r="7"/><circle cx="239" cy="70" r="7"/>
+        <path d="M75 10v75M239 10v75M45 27h225" stroke-dasharray="3 7" opacity=".25"/>
+      </g>
+    </symbol>
+    <symbol id="medtech" viewBox="0 0 320 100">
+      <g fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M36 53h62l10-13 12 29 15-45 16 57 14-28h119"/>
+        <rect x="57" y="18" width="206" height="66" rx="12" opacity=".3"/>
+        <path d="M247 28v15m-7-7h14M60 53h200" stroke-dasharray="2 5" opacity=".4"/>
+      </g>
+    </symbol>
+    <symbol id="compass" viewBox="0 0 320 100">
+      <g fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="160" cy="50" r="35"/><circle cx="160" cy="50" r="25" stroke-dasharray="2 5" opacity=".45"/>
+        <path d="m175 25-8 32-22 18 8-32 22-18ZM160 7v11m0 64v11M117 50h11m64 0h11"/>
+        <path d="M50 25h40M50 36h25M230 65h40M245 76h25" opacity=".4"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>

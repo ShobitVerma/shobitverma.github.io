@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="760 15 485 545" width="970" height="1090">
+<title>Coloured kinematic sketch with all source point labels except N</title>
+<desc>Tracing of the original red linkage and construction lines, neon green drive link, and blue construction lines and motion arcs, on white.</desc>
+<rect x="760" y="15" width="485" height="545" fill="white"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<g stroke="#ff1616" stroke-width="3.5">
+<path d="M1080 220 L870 74 L916 219 L1128 365 Z"/>
+<path d="M808 144 L916 219 L965 360 L853 282 Z"/>
+<path d="M853 282 L1177 508 M1080 220 L1177 508 M985 508 H1177"/>
+<path d="M1090 227 l15 -14 M1097 249 l15 -14 M1104 271 l15 -14 M1112 294 l15 -14 M1120 317 l15 -14 M1127 340 l15 -14" stroke-width="2.5"/>
+</g>
+<g stroke="#1616ff" stroke-width="3">
+<path d="M985 466 L1128 365 L1128 508 M985 466 H1128 M1128 365 L1060 466 L1177 508"/>
+<path d="M1115 466 V453 H1128 M1115 508 V495 H1128" stroke-width="2"/>
+<path d="M853 282 Q930 183 1055 130 M965 360 Q1010 292 1089 265" stroke-width="4.5"/>
+<path d="M1082 314 L1128 365"/>
+</g>
+<path d="M985 466 L1082 314" stroke="#39ff14" stroke-width="5"/>
+</g>
+<g fill="white" stroke="#ff1616" stroke-width="2.5">
+<circle cx="1080" cy="220" r="5"/><circle cx="870" cy="74" r="5"/><circle cx="1128" cy="365" r="5"/><circle cx="916" cy="219" r="5"/><circle cx="853" cy="282" r="5"/><circle cx="808" cy="144" r="5"/><circle cx="965" cy="360" r="5"/>
+</g>
+<g fill="#111" font-family="Arial, sans-serif" font-size="24" font-weight="600">
+<text x="1101" y="208">A</text><text x="862" y="52">B</text><text x="1150" y="376">C</text><text x="932" y="224">D</text><text x="820" y="313">E</text><text x="784" y="123">F</text>
+<text x="937" y="384">I</text><text x="1055" y="308">K</text><text x="954" y="465">L</text><text x="1044" y="497">M</text><text x="1140" y="476">Q</text><text x="956" y="523">V</text><text x="1194" y="521">O</text>
+</g></svg>

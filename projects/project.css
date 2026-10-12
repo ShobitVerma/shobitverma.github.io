@@ -1,0 +1,42 @@
+/* Shared presentation for the eleven independent project pages. */
+.project-detail-page .detail-header { max-width: 960px; margin: auto; padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line); }
+.detail-header a { color: var(--green); font-size: 13px; text-decoration: none; }
+.project-detail-page main.project-detail { width: 100%; max-width: 960px; margin: 0 auto; padding: 30px 28px; }
+.detail-byline { color: var(--muted); font-size: 13px; }
+.project-detail h1 { font: 400 clamp(25px, 3vw, 36px)/1.3 Georgia, serif; color: var(--green); margin: 0 0 24px; overflow-wrap: anywhere; }
+.project-detail h2 { font-size: 23px; font-weight: 400; color: var(--green); margin: 24px 0 12px; }
+.detail-media { margin: 0 0 24px; background: var(--soft); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.detail-media a { display: block; }
+.detail-media img { display: block; width: 100%; height: auto; max-height: 480px; object-fit: contain; }
+.detail-media > svg { display: block; width: 100%; height: 240px; color: var(--green); padding: 35px; }
+.detail-description { text-align: justify; }
+.detail-patent { border-top: 1px solid var(--line); margin-top: 24px; }
+.detail-patent .authors { font-style: italic; color: var(--muted); font-size: 14px; }
+.detail-navigation { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); padding-top: 18px; margin-top: 32px; font-size: 13px; }
+@media (max-width: 600px) {
+  .project-detail-page .detail-header { padding: 12px 18px; flex-wrap: wrap; }
+  .detail-header .header-actions { gap: 10px; }
+  .project-detail-page main.project-detail { padding: 24px 18px; }
+  .detail-media > svg { height: 180px; padding: 20px; }
+}
+
+.detail-header .home-link {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--soft);
+  flex-shrink: 0;
+}
+.detail-header .home-link:hover { border-color: var(--green); }
+
+/* Match the report control to the Home and theme icon palette. */
+.detail-header .header-actions .resume-button,
+.detail-header .header-actions .resume-button:hover {
+  background: var(--soft);
+  color: var(--green);
+  border-color: var(--line);
+}
+.detail-header .header-actions .resume-button:hover { border-color: var(--green); }

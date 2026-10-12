@@ -1,0 +1,245 @@
+{
+  "assets": {
+    "hero.jpg": {
+      "original_name": "k10.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1WPCG5Z3SPldIdbCIxOVj77De4P5KPVVj"
+    },
+    "finished.jpg": {
+      "original_name": "k 11.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1DN3wkLu2kebpwSKIxtQ4PpQzg53eGVIn"
+    },
+    "finished-angle.jpg": {
+      "original_name": "IMG-20250107-WA0013.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1GAkNzZd9WsMVctPVV906AAN6lVLjc2FK"
+    },
+    "finished-side.jpg": {
+      "original_name": "IMG-20250107-WA0014.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1bFo8h6eA6454tdPwnC59LNbUkhXwiw5Q"
+    },
+    "finished-top.jpg": {
+      "original_name": "SJ1.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1kLt10eRDxy576gp6gH1COQxUy4i9f6PS"
+    },
+    "frame-primer.jpg": {
+      "original_name": "k1.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1opyc6gQ_zs1SAzS0bzemJEudsqvetop6"
+    },
+    "base-assembly.jpg": {
+      "original_name": "k2 .jpg",
+      "source_folder": 1,
+      "drive_file_id": "1mecEOxjXd0Bw5YFOeXjsd75nD0Bga3zs"
+    },
+    "base-supports.jpg": {
+      "original_name": "k3.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1Y7WRaWYbAc7sGSudGP7laQdJpLmUK-ld"
+    },
+    "top-assembly.jpg": {
+      "original_name": "k4.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1Ql9UJBMiSE3z7fqxfNh3MzhC1s3pw41Q"
+    },
+    "top-detail.jpg": {
+      "original_name": "k7.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1fE7wb1tWeWyO2MQFUHNqPb2M_3pSo5Qr"
+    },
+    "cad-assembly.jpg": {
+      "original_name": "e6781f8c91ca04793f6b18680ea4140b784456fb.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1RAZlwL8rZBFLmJfQIyVYPHm9gxRtwRna"
+    },
+    "cad-joint.jpg": {
+      "original_name": "8dba0264bc77fb7621933bd58e7e6df050f729d9.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1LCA0X4EJMk3RFATP0RJNaAVXONgfoOri"
+    },
+    "cad-handle.jpg": {
+      "original_name": "bf849b76354a9af7675827dae5b3b616a2a503db.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1C7RPyU4jiYXZLK92ku-osZFE6A_lMRvz"
+    },
+    "cad-top.jpg": {
+      "original_name": "f45631818b22d38903bf11770e2a1f102afd3b8f.jpg",
+      "source_folder": 1,
+      "drive_file_id": "1p1_-l2WfPa6YJ8NwLplwpDU3-uDUpPAE"
+    },
+    "waterjet.jpg": {
+      "original_name": "slide-8-9.jpeg",
+      "source": "presentation.pdf",
+      "slide": 8,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "printed-wedge.jpg": {
+      "original_name": "slide-8-10.jpeg",
+      "source": "presentation.pdf",
+      "slide": 8,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "nylon-supports.jpg": {
+      "original_name": "slide-8-12.jpeg",
+      "source": "presentation.pdf",
+      "slide": 8,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "cutting.jpg": {
+      "original_name": "slide-9-4.jpeg",
+      "source": "presentation.pdf",
+      "slide": 9,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "robot-marking.jpg": {
+      "original_name": "slide-9-5.jpeg",
+      "source": "presentation.pdf",
+      "slide": 9,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "welded-frame.jpg": {
+      "original_name": "slide-9-6.jpeg",
+      "source": "presentation.pdf",
+      "slide": 9,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "steel-layout.jpg": {
+      "original_name": "slide-9-3.jpeg",
+      "source": "presentation.pdf",
+      "slide": 9,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "handle-drawing.png": {
+      "original_name": "slide-8-1.png",
+      "source": "presentation.pdf",
+      "slide": 8,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "plate-drawing.png": {
+      "original_name": "slide-8-0.png",
+      "source": "presentation.pdf",
+      "slide": 8,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "wedge-drawing.png": {
+      "original_name": "slide-8-6.png",
+      "source": "presentation.pdf",
+      "slide": 8,
+      "extraction": "Original embedded image, unchanged"
+    },
+    "assembly-video.mp4": {
+      "original_name": "k9.mp4",
+      "source_folder": 1,
+      "drive_file_id": "1_s2b7uZqRXzpr77aBa4KscGZOWGk8q1Z"
+    },
+    "bill-of-materials.xlsx": {
+      "original_name": "BOM.xlsx",
+      "source_folder": 1,
+      "drive_file_id": "1kthw_0xBNgvbjxKeydchrka6VElOQWR8",
+      "local_update": {
+        "description": "Consolidated all mechanical, electronics and alternative material entries into one Complete BOM worksheet with one formatted table and one-page print settings.",
+        "planned_components": 18,
+        "alternative_material_options": 14,
+        "specified_electronic_quantities": {
+          "Linear Encoders": 6,
+          "Motor Driver Modules": 6
+        },
+        "power_supply": "24 V DC",
+        "cost_policy": "Existing costs retained. Unknown prices and quantities remain blank. The subtotal includes all priced planned items and excludes alternatives.",
+        "preservation": "Existing item details, prices and supplier links retained; duplicate entries folded together."
+      }
+    },
+    "cad-assembly.zip": {
+      "original_name": "cad-error-compensated.zip",
+      "source_folder": 1,
+      "drive_file_id": "15aZUqufKZgxKOO6dv3ORxvsJo2FSQoLr"
+    },
+    "drilling-points.pdf": {
+      "original_name": "stewart-points.pdf",
+      "source_folder": 1,
+      "drive_file_id": "1tK_RxtjUZcF2JA9j0UbGcbmMGvu7FNi3"
+    },
+    "design-view-1.png": {
+      "original_name": "view (1).png",
+      "source_folder": 2,
+      "drive_file_id": "17FGoGDcl3ua4N0nexrcMaf8FIJv2islQ"
+    },
+    "design-view-2.png": {
+      "original_name": "view (2).png",
+      "source_folder": 2,
+      "drive_file_id": "1FnvR4Zb4Lo_5KvMGHkEkqBwVDf1mHoD2"
+    },
+    "design-view-3.png": {
+      "original_name": "view (3).png",
+      "source_folder": 2,
+      "drive_file_id": "1Txl1IFhuqSqZRluG_QZXFlqPpNkWU0QF"
+    },
+    "design-view-4.png": {
+      "original_name": "view (4).png",
+      "source_folder": 2,
+      "drive_file_id": "1hKvSn8u9FLpKJA-8wPRzAsf9D1z0OvZP"
+    },
+    "design-view-5.png": {
+      "original_name": "view (5).png",
+      "source_folder": 2,
+      "drive_file_id": "1ks2NYepQlfuyDped-2wsNM7aKpq3UP5A"
+    },
+    "design-view-6.png": {
+      "original_name": "view (6).png",
+      "source_folder": 2,
+      "drive_file_id": "1J8xLGRYv8nqr_iAjiY_lXIyythojkoa6"
+    },
+    "design-view-7.png": {
+      "original_name": "view (7).png",
+      "source_folder": 2,
+      "drive_file_id": "15Vl3Nb_-EGD-P0GBR106mSVGyGE9cRnM"
+    },
+    "design-view-8.png": {
+      "original_name": "view (8).png",
+      "source_folder": 2,
+      "drive_file_id": "1E6JHdENy-VsX_ViMUso4BJqjcqiM7oR_"
+    },
+    "design-view-9.png": {
+      "original_name": "view (9).png",
+      "source_folder": 2,
+      "drive_file_id": "1n_e3k-StCG9qUUpFEelAJpzr_79nCfcM"
+    }
+  },
+  "documents": {
+    "thesis.pdf": {
+      "original_name": "thesis_21je0893 Shobit Verma.pdf",
+      "drive_file_id": "1rr91YpNgMGi4nQ9oJ8bQnJOjw40mq01D"
+    },
+    "presentation.pdf": {
+      "original_name": "Shobit Verma 21je0893 presentation.pdf",
+      "drive_file_id": "1VDPME7urRb_iZAj1di8VYVz2S7kgXeCE"
+    },
+    "patent.pdf": {
+      "original_name": "6552818.pdf",
+      "drive_file_id": "1HWOvGovNg-RHTH2YMKldDnlcbC6xgLle"
+    },
+    "patent-report.pdf": {
+      "composition": [
+        {
+          "source": "patent.pdf",
+          "pages": "all"
+        },
+        {
+          "source": "thesis.pdf",
+          "pages": "9-22"
+        }
+      ],
+      "page_count": 15
+    }
+  },
+  "kinematics_reference": "Forward Kinematics Solution of a 6-DOF All-Revolute Parallel Manipulator Using Neural Network, DOI 10.1142/S0219876225500549. Text only; no images copied.",
+  "content_sources": {
+    "overview_design_manufacturing_assembly_outcomes": "UG thesis Chapters 1, 3?6; project presentation slides 4, 6?13; previous portfolio pages 16?18.",
+    "kinematics_control": "Specified research paper, Sections 2?3 and Table 2. No figures or model images extracted. Authors Ashish Siddharth, Himanshu Varshney, Arun Dayal Udai.",
+    "patent": "Supplied UK Design Certificate 6552818. Registration 11 September 2026; grant 23 September 2026.",
+    "design_novelty": "Design Requirement_Stewart Joystick.docx from folder 2: technical design points only; applicant addresses and signatures excluded."
+  }
+}

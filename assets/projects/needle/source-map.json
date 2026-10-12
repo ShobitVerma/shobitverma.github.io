@@ -1,0 +1,872 @@
+{
+  "projectFolder": "https://drive.google.com/drive/folders/1ixgiv-5cTFBHUOzFGjNzPI5HRAoKOO-T",
+  "weeklyFolder": "https://drive.google.com/drive/folders/175sJeLAh7l03tL6DmibgGG7uZnzIFU2g",
+  "certificate": {
+    "file": "patent-certificate.pdf",
+    "driveId": "1r6GyRG03KZeGiFwPT46n6iVdS4GCYAC8",
+    "designNumber": "6552820",
+    "grantDate": "2026-09-28",
+    "pages": 1
+  },
+  "technicalReport": {
+    "file": "technical-report.pdf",
+    "source": "C:\\Users\\shobi\\Desktop\\Patents\\7. A Robotic RCM-Based Needle Insertion System for Autonomous Abdominal Tumor Resection\\DETAIL REPORT_Needle Insertion mechanism.pdf",
+    "pages": 6
+  },
+  "patentReport": {
+    "file": "patent-report.pdf",
+    "pages": 7,
+    "order": [
+      "patent-certificate.pdf",
+      "technical-report.pdf"
+    ]
+  },
+  "derivation": {
+    "file": "governing-equation-derivation.pdf",
+    "pages": 5,
+    "policy": "Original derivation preserved; source equations transcribed without algebraic corrections."
+  },
+  "portfolio": {
+    "file": "portfolio-project.pdf",
+    "source": "Portfolio_ Shobit Verma_compressed.pdf",
+    "pages": [
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "renders": [
+    {
+      "file": "prototype-concept.png",
+      "source": "design-presentation.pdf",
+      "page": 3,
+      "clip": [
+        222,
+        110,
+        508,
+        444
+      ]
+    },
+    {
+      "file": "prototype-bearing-model.png",
+      "source": "design-presentation.pdf",
+      "page": 6,
+      "clip": [
+        92,
+        99,
+        352,
+        426
+      ]
+    },
+    {
+      "file": "prototype-assembled.png",
+      "source": "design-presentation.pdf",
+      "page": 8,
+      "clip": [
+        80,
+        187,
+        620,
+        752
+      ]
+    },
+    {
+      "file": "prototype-entry-point-model.png",
+      "source": "design-presentation.pdf",
+      "page": 11,
+      "clip": [
+        100,
+        107,
+        383,
+        422
+      ]
+    },
+    {
+      "file": "linkage-detail.png",
+      "source": "design-presentation.pdf",
+      "page": 11,
+      "clip": [
+        475,
+        130,
+        890,
+        410
+      ]
+    },
+    {
+      "file": "workspace-study.png",
+      "source": "design-presentation.pdf",
+      "page": 13,
+      "clip": [
+        145,
+        100,
+        1340,
+        790
+      ]
+    },
+    {
+      "file": "workspace-requirement.png",
+      "source": "design-presentation.pdf",
+      "page": 12,
+      "clip": [
+        440,
+        107,
+        1365,
+        760
+      ]
+    },
+    {
+      "file": "linkage-positions.png",
+      "source": "governing-equation-derivation.pdf",
+      "page": 2,
+      "clip": [
+        85,
+        63,
+        540,
+        717
+      ]
+    },
+    {
+      "file": "derivation-geometry.png",
+      "source": "governing-equation-derivation.pdf",
+      "page": 3,
+      "clip": [
+        93.47999572753906,
+        262.91998291015625,
+        517.9199829101562,
+        571.9199829101562
+      ],
+      "rotationClockwise": 0
+    },
+    {
+      "file": "derivation-page-4.png",
+      "source": "governing-equation-derivation.pdf",
+      "page": 4,
+      "clip": null
+    },
+    {
+      "file": "derivation-page-5.png",
+      "source": "governing-equation-derivation.pdf",
+      "page": 5,
+      "clip": null
+    },
+    {
+      "file": "transmission-disengaged.png",
+      "source": "technical-report.pdf",
+      "page": 5,
+      "clip": [
+        72,
+        264,
+        177,
+        634
+      ]
+    },
+    {
+      "file": "transmission-engaged.png",
+      "source": "technical-report.pdf",
+      "page": 5,
+      "clip": [
+        176,
+        264,
+        280,
+        634
+      ]
+    },
+    {
+      "file": "release-lever.png",
+      "source": "technical-report.pdf",
+      "page": 4,
+      "clip": [
+        315,
+        499,
+        515,
+        600
+      ]
+    },
+    {
+      "file": "weekly-assembly.png",
+      "source": "Shobit Verma week 6&7.pdf",
+      "page": 18,
+      "clip": [
+        610,
+        170,
+        1160,
+        694
+      ]
+    },
+    {
+      "file": "rcm-principle.png",
+      "source": "governing-equation-derivation.pdf",
+      "page": 1,
+      "clip": [
+        88,
+        370,
+        350,
+        590
+      ]
+    },
+    {
+      "file": "inclination-relations.png",
+      "source": "governing-equation-derivation.pdf",
+      "page": 5,
+      "clip": [
+        88,
+        358,
+        455,
+        509
+      ]
+    },
+    {
+      "file": "kinematic-structure.png",
+      "source": "governing-equation-derivation.pdf",
+      "page": 2,
+      "clip": [
+        93.48,
+        82.68,
+        517.92,
+        432.72
+      ],
+      "rotationClockwise": 90
+    },
+    {
+      "file": "opposite-extreme.png",
+      "source": "governing-equation-derivation.pdf",
+      "page": 2,
+      "clip": [
+        93.48,
+        464.52,
+        435.6,
+        685.44
+      ]
+    },
+    {
+      "file": "derivation-combined.png",
+      "source": "governing-equation-derivation.pdf",
+      "pages": [
+        4,
+        5
+      ],
+      "layout": "Page 4 left, page 5 right; complete original pages"
+    }
+  ],
+  "drawingViews": {
+    "sourceFolder": "1P3K-I1rXt4QD-iGZK1pJqLyFNSBGx_vS",
+    "policy": "Original line drawings preserved; neutral view labels avoid unverified front/rear assignments."
+  },
+  "motionVideos": [
+    {
+      "file": "motion-linkage.mp4",
+      "source": "Needle Insertion mechanism - taiwan.pptx",
+      "embeddedVideo": "media1.mp4",
+      "crop": "600:350:80:15"
+    },
+    {
+      "file": "motion-entry-point.mp4",
+      "source": "Needle Insertion mechanism - taiwan.pptx",
+      "embeddedVideo": "media2.mp4",
+      "crop": "1040:750:530:170"
+    }
+  ],
+  "nativeAssemblyPhoto": {
+    "source": "Needle Insertion mechanism - taiwan.pptx",
+    "slide": 8,
+    "media": "ppt/media/image20.jpeg",
+    "processing": "Rotated 90 degrees counterclockwise; original photo retained without crop",
+    "asset": "weekly-assembly.jpg"
+  },
+  "correctedCrops": {
+    "workspace-requirement.png": {
+      "source": "design-presentation.pdf",
+      "page": 12,
+      "clip": [
+        440,
+        107,
+        1365,
+        760
+      ]
+    },
+    "release-lever.png": {
+      "source": "technical-report.pdf",
+      "page": 4,
+      "clip": [
+        315,
+        499,
+        515,
+        600
+      ]
+    }
+  },
+  "finalDesignUpdate": {
+    "source": "C:\\Users\\shobi\\Downloads\\Shobit Verma Online -3.pptx",
+    "file": "final-design-presentation.pptx",
+    "slides": 12,
+    "assets": {
+      "final-cad-front.png": "image20.png",
+      "final-cad-rear.png": "image21.png",
+      "final-prototype-overview.jpg": "image42.jpeg",
+      "final-prototype-rear.jpg": "image48.jpeg",
+      "final-prototype-drive.jpg": "image50.jpeg",
+      "final-drive-engaged.png": "image30.png",
+      "final-drive-disengaged.png": "image31.png",
+      "final-bearing-detail.png": "image38.png"
+    },
+    "manualReleaseVideo": {
+      "sourceMedia": "ppt/media/VAGVFQ_SC98.mp4",
+      "file": "manual-release-animation.mp4",
+      "slide": 8,
+      "processing": "Original MP4 unchanged"
+    },
+    "stateLabels": {
+      "engaged": "Slide 7 left: image30.png; State 1 Gear Engaged",
+      "disengaged": "Slide 7 right: image31.png; State 2 Gear Disengaged"
+    },
+    "prototypeStatus": "Closing slide lists actuators as awaiting delivery."
+  },
+  "cover": {
+    "source": "C:\\Users\\shobi\\Downloads\\me (4).pdf",
+    "file": "hero-cover.jpg",
+    "originalPDF": "cover-source.pdf",
+    "page": 1,
+    "processing": "Full original page rendered at 2x; no cropping",
+    "width": 2880,
+    "height": 1620
+  },
+  "illustratedDerivation": {
+    "file": "derivation-combined.png",
+    "pdf": "derivation-illustrated.pdf",
+    "kinematicStructure": {
+      "source": "technical-report.pdf",
+      "page": 2,
+      "figure": 2
+    },
+    "workspace": {
+      "source": "technical-report.pdf",
+      "page": 3,
+      "figure": 4
+    },
+    "originalDerivationPages": [
+      4,
+      5
+    ],
+    "addedTextFont": "Times New Roman",
+    "resultPlacement": "Full result heading, explanation and source equations 1-5 added to the white composite page; separate HTML result retained.",
+    "resultStyle": "Original paper style: 11 pt Times New Roman text, bold heading, 12 pt serif equations, bold italic equation numbers, matching column margins and no row separators.",
+    "layout": "Compact two columns: original derivation left and upper right, relation plots below left derivation, result equations 1-5 together in lower right."
+  },
+  "kinematicSketch": {
+    "file": "kinematic-sketch.svg",
+    "source": "derivation-geometry.png",
+    "processing": "Colour tracing of original linkage, virtual-axis extensions, ground hatching, drive link, construction triangles, right-angle markers and motion arcs; all source point labels except N.",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "I",
+      "K",
+      "L",
+      "M",
+      "Q",
+      "V",
+      "O"
+    ],
+    "correction": "K connected to C by a blue segment; curved blue angle arc above LM removed."
+  },
+  "prototypeCollage": {
+    "policy": "One or two representative full views per prototype or 3D model, in design-development order. Repeated views, component close-ups, drawings and motion-study screenshots removed from the visible collage.",
+    "images": [
+      {
+        "file": "prototype-collage/prototype-03.jpeg",
+        "caption": "Previous rigid design",
+        "stage": "previous",
+        "source": "Design presentation, slide 2"
+      },
+      {
+        "file": "prototype-collage/prototype-01.png",
+        "caption": "Original prototype",
+        "stage": "previous",
+        "source": "Weekly presentation, weeks 6 & 7, page 13"
+      },
+      {
+        "file": "prototype-collage/prototype-02.jpeg",
+        "caption": "Needle deployment model",
+        "stage": "previous",
+        "source": "Weekly presentation, weeks 6 & 7, page 13"
+      },
+      {
+        "file": "prototype-collage/prototype-04.png",
+        "caption": "Deployment concept",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-05.jpeg",
+        "caption": "Concept assembly",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-07.jpeg",
+        "caption": "Needle deployment drive",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-10.jpeg",
+        "caption": "Original RCM model drawing",
+        "stage": "concept",
+        "source": "Original design presentation, slide 5, complete embedded image ppt/media/image9.jpeg"
+      },
+      {
+        "file": "prototype-collage/prototype-12.png",
+        "caption": "Bearing-supported RCM",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-16.png",
+        "caption": "Assembly view",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-18.jpg",
+        "caption": "Assembled prototype",
+        "stage": "assembly",
+        "source": "Original design presentation, slide 8"
+      },
+      {
+        "file": "prototype-collage/prototype-21.png",
+        "caption": "Revised RCM model",
+        "stage": "revised",
+        "source": "Original design presentation, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-27.png",
+        "caption": "Final design",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/needle-deployment-internals.jpeg",
+        "caption": "Needle deployment internal view",
+        "stage": "final",
+        "source": "technical-report.pdf, original embedded image xref 40"
+      },
+      {
+        "file": "prototype-collage/prototype-58.png",
+        "caption": "Printed mechanism",
+        "stage": "final-detail",
+        "source": "Project archive photos"
+      },
+      {
+        "file": "prototype-collage/prototype-53.jpeg",
+        "caption": "Printed prototype",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      }
+    ],
+    "archiveImages": [
+      {
+        "file": "prototype-collage/prototype-01.png",
+        "caption": "Original prototype",
+        "stage": "previous",
+        "source": "Weekly presentation, weeks 6 & 7, page 13"
+      },
+      {
+        "file": "prototype-collage/prototype-02.jpeg",
+        "caption": "Needle deployment model",
+        "stage": "previous",
+        "source": "Weekly presentation, weeks 6 & 7, page 13"
+      },
+      {
+        "file": "prototype-collage/prototype-03.jpeg",
+        "caption": "Previous rigid design",
+        "stage": "previous",
+        "source": "Design presentation, slide 2"
+      },
+      {
+        "file": "prototype-collage/prototype-04.png",
+        "caption": "Deployment concept",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-05.jpeg",
+        "caption": "Concept assembly",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-06.jpeg",
+        "caption": "Concept drawing",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-07.jpeg",
+        "caption": "Needle deployment drive",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-08.jpeg",
+        "caption": "Gear transmission",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-09.jpeg",
+        "caption": "Roller arrangement",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-10.jpeg",
+        "caption": "Original RCM model drawing",
+        "stage": "concept",
+        "source": "Original design presentation, slide 5, complete embedded image ppt/media/image9.jpeg"
+      },
+      {
+        "file": "prototype-collage/prototype-11.jpeg",
+        "caption": "Linkage detail",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-12.png",
+        "caption": "Bearing-supported RCM",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-13.png",
+        "caption": "RCM drawing",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-14.png",
+        "caption": "Bearing and joint assembly",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-15.png",
+        "caption": "Internal construction",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-16.png",
+        "caption": "Assembly view",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-17.png",
+        "caption": "First linkage motion study",
+        "stage": "concept",
+        "source": "Original design presentation"
+      },
+      {
+        "file": "prototype-collage/prototype-18.jpg",
+        "caption": "Assembled prototype",
+        "stage": "assembly",
+        "source": "Original design presentation, slide 8"
+      },
+      {
+        "file": "prototype-collage/prototype-19.jpeg",
+        "caption": "Assembled linkage study",
+        "stage": "assembly",
+        "source": "Original design presentation, slide 8"
+      },
+      {
+        "file": "prototype-collage/prototype-20.png",
+        "caption": "Entry-point revision",
+        "stage": "revised",
+        "source": "Original design presentation, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-21.png",
+        "caption": "Revised RCM model",
+        "stage": "revised",
+        "source": "Original design presentation, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-22.png",
+        "caption": "Revised assembly",
+        "stage": "revised",
+        "source": "Original design presentation, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-23.png",
+        "caption": "Revised linkage detail",
+        "stage": "revised",
+        "source": "Original design presentation, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-24.png",
+        "caption": "Revised model view",
+        "stage": "revised",
+        "source": "Original design presentation, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-25.png",
+        "caption": "Revised CAD drawing",
+        "stage": "revised",
+        "source": "Original design presentation, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-26.png",
+        "caption": "Revised linkage study",
+        "stage": "revised",
+        "source": "Original design presentation, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-27.png",
+        "caption": "Final design",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-28.png",
+        "caption": "Final CAD view",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-29.png",
+        "caption": "Final assembly detail",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-30.png",
+        "caption": "Final design drawing",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-31.png",
+        "caption": "Deployment housing",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-32.png",
+        "caption": "Geared drive",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-33.png",
+        "caption": "Joint construction",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-34.png",
+        "caption": "Threaded mounting",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-35.png",
+        "caption": "Threaded joint detail",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-36.png",
+        "caption": "Roller side",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-37.png",
+        "caption": "Engagement mechanism",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-38.png",
+        "caption": "Drive engaged",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-39.png",
+        "caption": "Drive disengaged",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-40.jpeg",
+        "caption": "Release mechanism",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-41.png",
+        "caption": "Drive components",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-42.png",
+        "caption": "Bearing and roller",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-43.png",
+        "caption": "Bearing mounting",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-44.png",
+        "caption": "Lead-screw coupling",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-45.png",
+        "caption": "Alignment drive",
+        "stage": "final-cad",
+        "source": "Final online design update, slides 5-9"
+      },
+      {
+        "file": "prototype-collage/prototype-58.png",
+        "caption": "Printed mechanism",
+        "stage": "final-detail",
+        "source": "Project archive photos"
+      },
+      {
+        "file": "prototype-collage/prototype-59.png",
+        "caption": "Rendered design",
+        "stage": "final-detail",
+        "source": "Project archive photos"
+      },
+      {
+        "file": "prototype-collage/prototype-60.png",
+        "caption": "CAD assembly",
+        "stage": "final-detail",
+        "source": "Project archive photos"
+      },
+      {
+        "file": "prototype-collage/prototype-61.png",
+        "caption": "Drive close-up",
+        "stage": "final-detail",
+        "source": "Project archive photos"
+      },
+      {
+        "file": "prototype-collage/prototype-62.png",
+        "caption": "Transmission views",
+        "stage": "final-detail",
+        "source": "Project archive photos"
+      },
+      {
+        "file": "prototype-collage/prototype-46.jpeg",
+        "caption": "Printed prototype",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-47.jpeg",
+        "caption": "Printed prototype",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-48.jpeg",
+        "caption": "Printed assembly detail",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-49.jpeg",
+        "caption": "Printed prototype",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-50.jpeg",
+        "caption": "Printed assembly detail",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-51.jpeg",
+        "caption": "Printed prototype",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-52.jpeg",
+        "caption": "Printed prototype",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-53.jpeg",
+        "caption": "Printed prototype",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-54.jpeg",
+        "caption": "Printed assembly detail",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-55.jpeg",
+        "caption": "Printed assembly detail",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-56.jpeg",
+        "caption": "Printed assembly detail",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/prototype-57.jpeg",
+        "caption": "Printed assembly detail",
+        "stage": "printed",
+        "source": "Final online design update, slides 10-11"
+      },
+      {
+        "file": "prototype-collage/needle-deployment-internals.jpeg",
+        "caption": "Needle deployment internal view",
+        "stage": "final",
+        "source": "technical-report.pdf, original embedded image xref 40"
+      }
+    ]
+  },
+  "illustratedDerivationLayout": "Equations 1-3 on the left and 4-5 on the right within the right column; relation plots span the full bottom width.",
+  "needleModuleComponents": {
+    "file": "needle-module-components.png",
+    "source": "final-design-presentation.pptx",
+    "slide": 9,
+    "method": "Original PowerPoint slide exported and cropped to the annotated component image."
+  },
+  "documentDownloads": {
+    "technicalReport": "patent-report.pdf",
+    "bom": {
+      "file": "bom.pdf",
+      "source": "technical-report.pdf",
+      "page": 5,
+      "scope": "Non-CNC components and fasteners"
+    },
+    "cadModel": {
+      "file": "needle-insertion.step",
+      "source": "C:\\Users\\shobi\\Desktop\\Patents\\7. A Robotic RCM-Based Needle Insertion System for Autonomous Abdominal Tumor Resection\\Step file\\Needle insertion_STEP.STEP"
+    },
+    "governingEquations": "governing-equation-derivation.pdf"
+  }
+}
