@@ -14,15 +14,12 @@
     "file": "hero-cover.png",
     "editable": "hero-cover.svg",
     "status": "Temporary collage",
-    "sources": [
-      "photo-1.png",
-      "photo-2.png",
-      "inner-circuit.png",
-      "view-3.png",
-      "view-9.png",
-      "view-5.png"
-    ],
-    "policy": "Original supplied images fitted on a white 1920x1080 vector canvas without cropping.",
+    "sources": {
+      "machined-compass.jpeg": "presentation.pdf page9 xref84",
+      "machining.jpeg": "presentation.pdf page9 xref80",
+      "diagram-37.jpeg": "presentation.pdf page2 xref37"
+    },
+    "policy": "Original finished component, machining photograph and borehole-section graph, arranged without cropping.",
     "usedBy": [
       "index.html project-12",
       "projects/12.html"
