@@ -40,3 +40,5 @@
   border-color: var(--line);
 }
 .detail-header .header-actions .resume-button:hover { border-color: var(--green); }
+
+.project-cover img { max-height:none; width:100%; height:auto; object-fit:contain; }

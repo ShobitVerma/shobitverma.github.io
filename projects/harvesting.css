@@ -308,3 +308,7 @@
 
 .supporting-equations-title, .supporting-equations .equation-row-heading > span, .supporting-equations .equation-math { color: #777; }
 html[data-theme="dark"] .supporting-equations-title, html[data-theme="dark"] .supporting-equations .equation-row-heading > span, html[data-theme="dark"] .supporting-equations .equation-math { color: #aaa; }
+
+.harvesting-flowchart { margin-top:28px !important; }
+.harvesting-flowchart .image-button { background:white; }
+.harvesting-flowchart img { width:100%; height:auto; }

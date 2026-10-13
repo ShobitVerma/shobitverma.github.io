@@ -1,0 +1,13 @@
+{
+  "cover": {
+    "file": "hero-cover.jpg",
+    "source": "C:\\Users\\shobi\\Downloads\\me (5).pdf",
+    "original": "cover-source.pdf",
+    "page": 2,
+    "render": "Full original PDF page at 1920 x 1080, unchanged composition and no cropping.",
+    "usedBy": [
+      "index.html project-9",
+      "projects/9.html"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "project": "Robotic Load-Haul-Dumper (LHD) scaled system for Mining Automation Technology Development",
+  "driveFolder": "https://drive.google.com/drive/folders/1mvUgHkXBSLNdLhBQV1PxxoK7y-DwFU-i",
+  "certificate": {
+    "file": "patent-certificate.pdf",
+    "driveId": "1Ln_SAF-3YcVF8vhoPlIEFl0XJJyGIh1w",
+    "pages": 1
+  },
+  "technicalReport": {
+    "file": "technical-report.pdf",
+    "editable": "technical-report.docx",
+    "textSource": "technical-report.md",
+    "pages": 18,
+    "authoring": "Newly authored consolidated technical report from all supplied project evidence.",
+    "sources": [
+      "presentation.pdf",
+      "design-bom.pdf",
+      "control-system-source.pdf",
+      "original description and design-requirement DOCX files",
+      "Photos CAD images",
+      "navigation-simulation.mp4"
+    ],
+    "coverage": [
+      "modular chassis",
+      "articulation and bucket",
+      "hydraulics",
+      "instrumentation",
+      "ROS architecture",
+      "AMCL",
+      "A-star",
+      "MPC",
+      "operating sequence",
+      "simulation results",
+      "prototype",
+      "nine CAD views",
+      "dimensions",
+      "original BOM costs",
+      "proposed validation"
+    ],
+    "policy": "Preserves original diagrams and explicitly separates source evidence from interpretation and proposed work. No invented performance data."
+  },
+  "patentReport": {
+    "file": "patent-report.pdf",
+    "order": [
+      "patent-certificate.pdf",
+      "technical-report.pdf"
+    ],
+    "pages": 19
+  },
+  "designBOM": {
+    "file": "design-bom.pdf",
+    "driveId": "129pg0BOYEwYN5rdJulLWNOLaMv4_nsW7",
+    "pages": 15
+  },
+  "presentation": {
+    "file": "presentation.pdf",
+    "driveId": "12EfQ5T8b-2j5-R5dZZtF9_0uemPNCi8L",
+    "pages": 21
+  },
+  "cover": {
+    "file": "hero-cover.png",
+    "source": "C:\\Users\\shobi\\Downloads\\me (5).pdf",
+    "original": "cover-source.pdf",
+    "page": 1,
+    "render": "Full original PDF page at 1920 x 1080, unchanged composition and no cropping.",
+    "usedBy": [
+      "index.html project-8",
+      "projects/8.html"
+    ],
+    "previousGeneratedCover": "previous-generated-cover.png"
+  },
+  "inventors": {
+    "website": [
+      "Shobit Verma",
+      "Bryan Vas",
+      "Bhupendra Singh Rathore"
+    ],
+    "policy": "User supplied the three-person inventor list. Original certificate lists Shobit Verma and Bryan Vas; source documents remain unchanged."
+  },
+  "evidence": {
+    "hardware": "Fabricated prototype shown on presentation page 15.",
+    "autonomy": "Gazebo/static-map simulation only. Hardware autonomy, dynamic obstacles and behaviour trees are future work.",
+    "dimensions": "Source documents vary between 1.4 and 1.5 m; original dimension drawings preserved, no unified measurement asserted."
+  },
+  "simulationVideo": {
+    "driveId": "1swYK0RoISNhHrEmiW8xyH17aaPJ12k2Z",
+    "source": "Presentation slide 11 external hyperlink"
+  },
+  "images": {
+    "fabricated-prototype.jpeg": "presentation.pdf page 15 xref128",
+    "simulation-map.jpeg": "presentation.pdf page8 xref71",
+    "main-control-flow.jpeg": "presentation.pdf page9 xref78",
+    "a-star-flow.jpeg": "presentation.pdf page10 xref85",
+    "mpc-flow.jpeg": "presentation.pdf page10 xref86",
+    "simulation-frame.jpeg": "presentation.pdf page11 xref94",
+    "dimensions-side.jpeg": "presentation.pdf page14 xref116",
+    "dimensions-plan.jpeg": "presentation.pdf page14 xref116",
+    "bom-table.png": "Full original design-bom.pdf page12 rendered at 2x",
+    "dimensions-front.jpeg": "presentation.pdf page14 xref117",
+    "dimensions-original.png": "presentation.pdf page14 full original dimension panel, clip [342,100,925,405], render 2x"
+  },
+  "photosSource": "C:\\Users\\shobi\\Desktop\\Patents\\2. Robotic Load-Haul-Dumper (LHD) scaled system for Mining Automation Technology Developement\\Photos",
+  "controlSystemSource": {
+    "file": "control-system-source.pdf",
+    "driveId": "1oYYsDLXcAn6AMlvTgb161c3jqbWmz-Kf",
+    "source": "LHD Control System_DETAIL REPORT.docx",
+    "conversion": "Word native PDF export",
+    "pages": 5
+  },
+  "dimensionCollage": {
+    "files": [
+      "pic2.png",
+      "pic13.png",
+      "pic6.png",
+      "pic10.png"
+    ],
+    "placement": "Full-width render collage below the side and compact front dimension images.",
+    "policy": "Original assembly, motor and wheel renders; all images uncropped and individually enlargeable."
+  }
+}

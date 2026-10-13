@@ -1,0 +1,31 @@
+{
+  "driveFolder": "https://drive.google.com/drive/folders/1z3qrq3uIuNqLMhR0R6vJ0KGyb0tnfgEw",
+  "files": {
+    "view-1.png": "18a2I5GkNCB9EhMLOZuk6ko7rz_0jWpUw",
+    "view-3.png": "1jDw5AMSEMAj7pH4w34KtxYU2oeEUH_8y",
+    "view-5.png": "19spfT21eJ78PY7N3TMy_dehX5Ju7vkRu",
+    "view-9.png": "1BJ1eaBJPpBCl4sGyRYZuO1CHQnKUbMeD",
+    "inner-circuit.png": "16zK0bR6uD7hAHOVHG9i23HlWBkgNR0aj",
+    "photo-1.png": "1_4aajfA744wMRrsuZe_2CEjEWMvYLO2D",
+    "photo-2.png": "1ZE4HhmoBjW1aKeG7jEZEgtzgdsYZJ3jw"
+  },
+  "coverStatus": "Temporary collage",
+  "cover": {
+    "file": "hero-cover.png",
+    "editable": "hero-cover.svg",
+    "status": "Temporary collage",
+    "sources": [
+      "photo-1.png",
+      "photo-2.png",
+      "inner-circuit.png",
+      "view-3.png",
+      "view-9.png",
+      "view-5.png"
+    ],
+    "policy": "Original supplied images fitted on a white 1920x1080 vector canvas without cropping.",
+    "usedBy": [
+      "index.html project-12",
+      "projects/12.html"
+    ]
+  }
+}

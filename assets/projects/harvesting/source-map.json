@@ -485,5 +485,10 @@
       1340
     ],
     "policy": "Original robot-and-tomato illustration rendered without changing the drawing."
+  },
+  "harvestingWorkflow": {
+    "file": "harvesting-flowchart.jpg",
+    "source": "C:\\Users\\shobi\\Downloads\\graph.jpg",
+    "policy": "Original supplied flowchart copied unchanged; full image displayed below the project overview with enlargement available."
   }
 }
