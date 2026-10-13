@@ -1,0 +1,726 @@
+{
+  "source": "path-reference.pdf; final-path-original.png",
+  "palette": {
+    "tail": "004aad",
+    "rear_body": "00bf63",
+    "back": "c1ff72",
+    "front_body": "ffde59",
+    "head": "ff914d",
+    "front_joint": "168aad",
+    "upper_leg": "a172fd",
+    "lower_leg": "5ce1e6",
+    "foot": "cb6ce6",
+    "toe": "0097b2",
+    "leg_joint": "5271ff",
+    "rear_joint": "ff3131",
+    "rear_knee": "ffbd59",
+    "rear_ankle": "56af19",
+    "rear_toe": "493a34",
+    "front_joint_extended": "38b6ff"
+  },
+  "poses": [
+    {
+      "pose": 1,
+      "markers": [
+        {
+          "point": "rear_joint",
+          "colour": "#ff3131",
+          "center": [
+            976.62,
+            547.89
+          ]
+        },
+        {
+          "point": "front_joint",
+          "colour": "#168aad",
+          "center": [
+            1097.91,
+            564.51
+          ]
+        },
+        {
+          "point": "rear_knee",
+          "colour": "#ffbd59",
+          "center": [
+            1039.15,
+            704.03
+          ]
+        },
+        {
+          "point": "rear_ankle",
+          "colour": "#56af19",
+          "center": [
+            1164.95,
+            804.54
+          ]
+        },
+        {
+          "point": "rear_toe",
+          "colour": "#493a34",
+          "center": [
+            1215.93,
+            780.95
+          ]
+        },
+        {
+          "point": "upper_leg",
+          "colour": "#a172fd",
+          "center": [
+            919.78,
+            632.31
+          ]
+        },
+        {
+          "point": "lower_leg",
+          "colour": "#5ce1e6",
+          "center": [
+            894.8,
+            787.91
+          ]
+        },
+        {
+          "point": "foot",
+          "colour": "#cb6ce6",
+          "center": [
+            846.69,
+            864.05
+          ]
+        },
+        {
+          "point": "toe",
+          "colour": "#0097b2",
+          "center": [
+            836.51,
+            906.61
+          ]
+        },
+        {
+          "point": "rear_body",
+          "colour": "#00bf63",
+          "center": [
+            781.39,
+            434.68
+          ]
+        },
+        {
+          "point": "front_body",
+          "colour": "#ffde59",
+          "center": [
+            1114.53,
+            401.43
+          ]
+        },
+        {
+          "point": "head",
+          "colour": "#ff914d",
+          "center": [
+            1309.96,
+            451.3
+          ]
+        },
+        {
+          "point": "tail",
+          "colour": "#004aad",
+          "center": [
+            259.56,
+            245.23
+          ]
+        },
+        {
+          "point": "back",
+          "colour": "#c1ff72",
+          "center": [
+            960.0,
+            326.61
+          ]
+        }
+      ]
+    },
+    {
+      "pose": 2,
+      "markers": [
+        {
+          "point": "back",
+          "colour": "#c1ff72",
+          "center": [
+            954.68,
+            308.58
+          ]
+        },
+        {
+          "point": "head",
+          "colour": "#ff914d",
+          "center": [
+            1308.67,
+            406.91
+          ]
+        },
+        {
+          "point": "front_body",
+          "colour": "#ffde59",
+          "center": [
+            1110.91,
+            362.21
+          ]
+        },
+        {
+          "point": "front_joint",
+          "colour": "#168aad",
+          "center": [
+            1144.15,
+            523.38
+          ]
+        },
+        {
+          "point": "upper_leg",
+          "colour": "#a172fd",
+          "center": [
+            965.18,
+            544.32
+          ]
+        },
+        {
+          "point": "lower_leg",
+          "colour": "#5ce1e6",
+          "center": [
+            987.92,
+            697.54
+          ]
+        },
+        {
+          "point": "foot",
+          "colour": "#cb6ce6",
+          "center": [
+            965.18,
+            785.99
+          ]
+        },
+        {
+          "point": "toe",
+          "colour": "#0097b2",
+          "center": [
+            948.56,
+            826.49
+          ]
+        },
+        {
+          "point": "rear_joint",
+          "colour": "#ff3131",
+          "center": [
+            712.87,
+            646.37
+          ]
+        },
+        {
+          "point": "rear_knee",
+          "colour": "#ffbd59",
+          "center": [
+            553.51,
+            714.17
+          ]
+        },
+        {
+          "point": "rear_ankle",
+          "colour": "#56af19",
+          "center": [
+            501.99,
+            869.08
+          ]
+        },
+        {
+          "point": "rear_toe",
+          "colour": "#493a34",
+          "center": [
+            509.31,
+            923.14
+          ]
+        },
+        {
+          "point": "rear_body",
+          "colour": "#00bf63",
+          "center": [
+            771.15,
+            423.53
+          ]
+        },
+        {
+          "point": "tail",
+          "colour": "#004aad",
+          "center": [
+            230.06,
+            456.78
+          ]
+        }
+      ]
+    },
+    {
+      "pose": 3,
+      "markers": [
+        {
+          "point": "head",
+          "colour": "#ff914d",
+          "center": [
+            1325.84,
+            392.23
+          ]
+        },
+        {
+          "point": "upper_leg",
+          "colour": "#a172fd",
+          "center": [
+            1038.7,
+            540.0
+          ]
+        },
+        {
+          "point": "lower_leg",
+          "colour": "#5ce1e6",
+          "center": [
+            1126.56,
+            668.66
+          ]
+        },
+        {
+          "point": "foot",
+          "colour": "#cb6ce6",
+          "center": [
+            1143.18,
+            762.94
+          ]
+        },
+        {
+          "point": "toe",
+          "colour": "#0097b2",
+          "center": [
+            1120.64,
+            807.55
+          ]
+        },
+        {
+          "point": "front_body",
+          "colour": "#ffde59",
+          "center": [
+            1109.93,
+            349.79
+          ]
+        },
+        {
+          "point": "front_joint",
+          "colour": "#168aad",
+          "center": [
+            1213.81,
+            482.52
+          ]
+        },
+        {
+          "point": "back",
+          "colour": "#c1ff72",
+          "center": [
+            943.38,
+            333.17
+          ]
+        },
+        {
+          "point": "tail",
+          "colour": "#004aad",
+          "center": [
+            198.52,
+            465.89
+          ]
+        },
+        {
+          "point": "rear_body",
+          "colour": "#00bf63",
+          "center": [
+            732.02,
+            432.64
+          ]
+        },
+        {
+          "point": "rear_joint",
+          "colour": "#ff3131",
+          "center": [
+            574.43,
+            597.16
+          ]
+        },
+        {
+          "point": "rear_knee",
+          "colour": "#ffbd59",
+          "center": [
+            403.41,
+            592.75
+          ]
+        },
+        {
+          "point": "rear_ankle",
+          "colour": "#56af19",
+          "center": [
+            283.21,
+            690.25
+          ]
+        },
+        {
+          "point": "rear_toe",
+          "colour": "#493a34",
+          "center": [
+            259.56,
+            746.32
+          ]
+        }
+      ]
+    },
+    {
+      "pose": 4,
+      "markers": [
+        {
+          "point": "head",
+          "colour": "#ff914d",
+          "center": [
+            1334.52,
+            403.97
+          ]
+        },
+        {
+          "point": "front_joint",
+          "colour": "#168aad",
+          "center": [
+            1267.27,
+            429.18
+          ]
+        },
+        {
+          "point": "upper_leg",
+          "colour": "#a172fd",
+          "center": [
+            1367.77,
+            585.07
+          ]
+        },
+        {
+          "point": "lower_leg",
+          "colour": "#5ce1e6",
+          "center": [
+            1514.34,
+            639.2
+          ]
+        },
+        {
+          "point": "foot",
+          "colour": "#cb6ce6",
+          "center": [
+            1582.8,
+            692.53
+          ]
+        },
+        {
+          "point": "toe",
+          "colour": "#0097b2",
+          "center": [
+            1616.05,
+            725.78
+          ]
+        },
+        {
+          "point": "front_body",
+          "colour": "#ffde59",
+          "center": [
+            1109.13,
+            370.72
+          ]
+        },
+        {
+          "point": "back",
+          "colour": "#c1ff72",
+          "center": [
+            943.38,
+            376.14
+          ]
+        },
+        {
+          "point": "rear_body",
+          "colour": "#00bf63",
+          "center": [
+            698.16,
+            412.56
+          ]
+        },
+        {
+          "point": "rear_joint",
+          "colour": "#ff3131",
+          "center": [
+            492.04,
+            512.76
+          ]
+        },
+        {
+          "point": "rear_knee",
+          "colour": "#ffbd59",
+          "center": [
+            335.56,
+            454.03
+          ]
+        },
+        {
+          "point": "tail",
+          "colour": "#004aad",
+          "center": [
+            186.26,
+            513.94
+          ]
+        },
+        {
+          "point": "rear_toe",
+          "colour": "#493a34",
+          "center": [
+            109.74,
+            549.49
+          ]
+        },
+        {
+          "point": "rear_ankle",
+          "colour": "#56af19",
+          "center": [
+            150.7,
+            553.39
+          ]
+        }
+      ]
+    },
+    {
+      "pose": 5,
+      "markers": [
+        {
+          "point": "tail",
+          "colour": "#004aad",
+          "center": [
+            189.7,
+            293.11
+          ]
+        },
+        {
+          "point": "front_body",
+          "colour": "#ffde59",
+          "center": [
+            1114.08,
+            381.67
+          ]
+        },
+        {
+          "point": "back",
+          "colour": "#c1ff72",
+          "center": [
+            943.38,
+            381.67
+          ]
+        },
+        {
+          "point": "head",
+          "colour": "#ff914d",
+          "center": [
+            1329.45,
+            418.88
+          ]
+        },
+        {
+          "point": "front_joint",
+          "colour": "#168aad",
+          "center": [
+            1208.1,
+            520.43
+          ]
+        },
+        {
+          "point": "leg_joint",
+          "colour": "#5271ff",
+          "center": [
+            1244.1,
+            703.99
+          ]
+        },
+        {
+          "point": "lower_leg",
+          "colour": "#5ce1e6",
+          "center": [
+            1329.45,
+            835.07
+          ]
+        },
+        {
+          "point": "foot",
+          "colour": "#cb6ce6",
+          "center": [
+            1416.2,
+            862.84
+          ]
+        },
+        {
+          "point": "toe",
+          "colour": "#0097b2",
+          "center": [
+            1459.62,
+            861.33
+          ]
+        },
+        {
+          "point": "rear_joint",
+          "colour": "#ff3131",
+          "center": [
+            662.14,
+            635.58
+          ]
+        },
+        {
+          "point": "rear_knee",
+          "colour": "#ffbd59",
+          "center": [
+            462.13,
+            499.11
+          ]
+        },
+        {
+          "point": "rear_ankle",
+          "colour": "#56af19",
+          "center": [
+            413.02,
+            652.2
+          ]
+        },
+        {
+          "point": "rear_toe",
+          "colour": "#493a34",
+          "center": [
+            446.27,
+            698.75
+          ]
+        },
+        {
+          "point": "rear_body",
+          "colour": "#00bf63",
+          "center": [
+            695.39,
+            410.84
+          ]
+        }
+      ]
+    },
+    {
+      "pose": 6,
+      "markers": [
+        {
+          "point": "tail",
+          "colour": "#004aad",
+          "center": [
+            240.29,
+            177.95
+          ]
+        },
+        {
+          "point": "rear_body",
+          "colour": "#00bf63",
+          "center": [
+            718.32,
+            438.94
+          ]
+        },
+        {
+          "point": "rear_knee",
+          "colour": "#ffbd59",
+          "center": [
+            694.33,
+            689.18
+          ]
+        },
+        {
+          "point": "rear_joint",
+          "colour": "#ff3131",
+          "center": [
+            852.88,
+            617.82
+          ]
+        },
+        {
+          "point": "rear_ankle",
+          "colour": "#56af19",
+          "center": [
+            814.35,
+            794.02
+          ]
+        },
+        {
+          "point": "rear_toe",
+          "colour": "#493a34",
+          "center": [
+            875.61,
+            785.18
+          ]
+        },
+        {
+          "point": "front_joint_extended",
+          "colour": "#38b6ff",
+          "center": [
+            1085.28,
+            579.3
+          ]
+        },
+        {
+          "point": "lower_leg",
+          "colour": "#5ce1e6",
+          "center": [
+            943.38,
+            881.58
+          ]
+        },
+        {
+          "point": "foot",
+          "colour": "#cb6ce6",
+          "center": [
+            987.39,
+            960.11
+          ]
+        },
+        {
+          "point": "toe",
+          "colour": "#0097b2",
+          "center": [
+            1036.02,
+            960.11
+          ]
+        },
+        {
+          "point": "leg_joint",
+          "colour": "#5271ff",
+          "center": [
+            976.62,
+            722.43
+          ]
+        },
+        {
+          "point": "head",
+          "colour": "#ff914d",
+          "center": [
+            1317.52,
+            455.56
+          ]
+        },
+        {
+          "point": "front_body",
+          "colour": "#ffde59",
+          "center": [
+            1118.53,
+            414.92
+          ]
+        },
+        {
+          "point": "back",
+          "colour": "#c1ff72",
+          "center": [
+            943.38,
+            381.67
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Circle colour follows the corresponding track in the merged reference; numeral gives pose index. The unmatched extra marker in original pose 5 is omitted."
+}

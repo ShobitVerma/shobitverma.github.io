@@ -1,13 +1,13 @@
 /* The thesis page keeps the portfolio's green palette and adds its own reading layout. */
-:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) { --header-height: 70px; --anchor-offset: 92px; }
-:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) :is(a, button, summary):focus-visible { outline-color: var(--green); }
-:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .detail-header {
+:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) { --header-height: 70px; --anchor-offset: 92px; }
+:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) :is(a, button, summary):focus-visible { outline-color: var(--green); }
+:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .detail-header {
   position: sticky; top: 0; z-index: 20; max-width: none;
   padding: 13px max(24px, calc((100vw - 1380px) / 2));
   background: var(--paper); border-bottom: 1px solid var(--line);
 }
-:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .header-actions { display: flex; align-items: center; gap: 18px; }
-:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .detail-header .resume-button { padding: 7px 13px; font-size: 12px; }
+:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .header-actions { display: flex; align-items: center; gap: 18px; }
+:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .detail-header .resume-button { padding: 7px 13px; font-size: 12px; }
 .case-progress { position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; pointer-events: none; }
 .case-progress span { display: block; height: 100%; background: var(--green); transform: scaleX(0); transform-origin: left; }
 .case-shell { max-width: 1380px; margin: 0 auto; display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 58px; padding: 0 24px; }
@@ -23,7 +23,7 @@
 .sidebar-author { padding: 0 9px; line-height: 1.7; }
 .sidebar-author a { color: var(--green); }
 .contents-toggle { display: none; }
-:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) main.project-detail.case-main { max-width: none; width: 100%; margin: 0; padding: 36px 0 40px; min-width: 0; font-size: 14px; line-height: 1.75; }
+:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) main.project-detail.case-main { max-width: none; width: 100%; margin: 0; padding: 36px 0 40px; min-width: 0; font-size: 14px; line-height: 1.75; }
 .case-main .case-section { padding: 36px 0 0; margin-bottom: 36px; border-top: 1px solid var(--line); scroll-margin-top: var(--anchor-offset); }
 .case-main .case-hero { padding-top: 0; border: 0; }
 .case-main .case-section:last-of-type { min-height: calc(100dvh - var(--anchor-offset)); }
@@ -201,7 +201,7 @@
 .archive-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; padding-top: 13px; }
 .archive-gallery .image-button { height: 170px; }
 .source-links { display: flex; gap: 13px 25px; flex-wrap: wrap; margin: 22px 0 0; font-size: 11px; }
-:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .detail-navigation { margin-top: 10px; padding-top: 20px; font-size: 12px; }
+:is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .detail-navigation { margin-top: 10px; padding-top: 20px; font-size: 12px; }
 .project-lightbox { width: min(1080px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); padding: 18px; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 12px; }
 .project-lightbox::backdrop { background: rgb(6 27 25 / .8); backdrop-filter: blur(5px); }
 .lightbox-toolbar { display: flex; justify-content: space-between; gap: 20px; align-items: center; margin-bottom: 14px; }
@@ -248,17 +248,17 @@
   .contents-toggle[aria-expanded="true"] > span { rotate: 180deg; }
   .case-toc { display: none; position: absolute; top: 100%; width: 100%; padding: 12px 22px; max-height: 65dvh; overflow-y: auto; background: var(--paper); border-bottom: 1px solid var(--line); box-shadow: 0 14px 28px rgb(6 40 32 / .1); }
   .case-toc.is-open { display: grid; grid-template-columns: 1fr 1fr; }
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) main.project-detail.case-main { padding-top: 28px; }
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .detail-header { padding: 12px 22px; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) main.project-detail.case-main { padding-top: 28px; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .detail-header { padding: 12px 22px; }
   .case-main h1 { font-size: clamp(29px, 5vw, 39px); }
 }
 @media (max-width: 560px) {
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .detail-header { gap: 8px; padding: 9px 16px; }
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .detail-header > a { font-size: 11px; }
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .header-actions { gap: 9px; margin-left: auto; }
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .header-actions > a { font-size: 11px; }
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .header-actions .resume-button { font-size: 10px; padding: 6px 9px; }
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) .header-actions :is(.home-link, .theme-toggle) { width: 30px; height: 30px; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .detail-header { gap: 8px; padding: 9px 16px; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .detail-header > a { font-size: 11px; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .header-actions { gap: 9px; margin-left: auto; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .header-actions > a { font-size: 11px; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .header-actions .resume-button { font-size: 10px; padding: 6px 9px; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) .header-actions :is(.home-link, .theme-toggle) { width: 30px; height: 30px; }
   .case-shell { padding-inline: 16px; }
   .case-sidebar { margin-inline: -16px; }
   .contents-toggle { padding-inline: 16px; }
@@ -321,7 +321,7 @@
   .case-toc.is-open { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) {
-  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) *, :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page) *::after { animation: none !important; transition: none !important; }
+  :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) *, :is(.joystick-page, .respiratory-page, .harvesting-page, .needle-page, .grip-page, .lhd-page, .slurry-page, .borehole-page, .cheetah-page) *::after { animation: none !important; transition: none !important; }
   .image-button:hover img, .image-button:hover .image-expand, .case-disclosure > summary:hover, .network-diagram button:hover, .drawing-controls button:hover, .control-tabs button:hover { transform: none; }
   .hotspot:hover { scale: 1; }
   .js-case-motion .case-section.waiting { opacity: 1; translate: none; }

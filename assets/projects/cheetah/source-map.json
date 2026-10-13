@@ -9,5 +9,42 @@
       "index.html project-11",
       "projects/11.html"
     ]
+  },
+  "driveFolder": "https://drive.google.com/drive/folders/1ulb7Ht8Ppg7xwjyAUc7dAnRAD3m8a3WT",
+  "downloadedFiles": {
+    "path-reference.pdf": "1TvNNKa1bPUDjbm9C4jj5FZG7h0U7kS58",
+    "final-path-original.png": "1cDE6GBdfsSIaNlTnkcgA2pzDAe_ZJfi_",
+    "front-leg-optimisation.png": "1ToMhjl2TpolmBCDHUr1xzgD7RuyriB0q",
+    "front-leg-path.png": "1hTZR2CvsAsgvmdzLnDYtccGcw4KsF7-E",
+    "leg-kinematics.png": "14u_T9jYwrw12deqeV6xSOqmdRjGVB1PO",
+    "rear-leg-path.png": "1-4OAOk98YRcHLRlD0MtP89iufQw4cn98",
+    "gallop-flight-reference.png": "1Wr2rrLcQ_4CHDvIGpOQJadYNRHKoTRMP",
+    "gallop-reference.mp4": "1vJvO_53Q0YDhHKdGMTEgMqANHgoY3nw2",
+    "first-prototype.jpg": "1CK-sZGtf4Ql8s_a9MzLlVIx7WGYSa6v8",
+    "prototype-chain.jpg": "1a8ufQxE-jAVs3gaA7FSIO1V9wFwKsLcP",
+    "cnc-cut.jpg": "1xUu5rHAIW6bYucnmycO6i6SRKt1-aozR",
+    "prototype-detail.jpg": "18s_UCEhM6B4X6GORzlrBPVyHzCSfTf13",
+    "prototype-working.mp4": "1ccceuMzFB5d6wkIGjxNM2zCBPD2K1sSj",
+    "mechanism-simulation.mp4": "1rgvahTQ0jWKNf_2b3hQtKOMaRtdft2pw",
+    "path-traced.png": "1nsX0K6_uyhFy6rktOz-FWs5o-mJ9infh"
+  },
+  "correctedPoses": {
+    "file": "path-reference-corrected.pdf",
+    "source": "path-reference.pdf",
+    "reference": "final-path-original.png",
+    "mapping": "pose-colour-map.json",
+    "method": "Edited PDF vector annotations; original reference images and point positions retained",
+    "posePages": 6
+  },
+  "report": {
+    "file": "report.pdf",
+    "pages": 13,
+    "authoredContent": "report-content.pdf",
+    "editable": "report.md",
+    "receiptSource": "assets/projects/respiratory/patent-filed.pdf",
+    "order": [
+      "Shared design-filing receipt",
+      "Authored kinetic art report"
+    ]
   }
 }

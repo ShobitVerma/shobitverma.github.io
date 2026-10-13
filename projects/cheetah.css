@@ -1,0 +1,63 @@
+﻿/* Slurry agitator case study shares the portfolio reading layout. */
+.cheetah-page .case-toc { border-bottom:1px solid var(--line); }
+.cheetah-overview { margin-top:26px; padding-top:26px; border-top:1px solid var(--line); }
+.cheetah-figure { margin-top:24px !important; }
+.cheetah-figure .image-button { background:white; }
+.cheetah-figure img { width:100%; height:auto; object-fit:contain; }
+.cheetah-pair { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:24px; align-items:start; }
+.cheetah-pair .cheetah-figure { margin-top:0 !important; }
+.cheetah-steps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin:24px 0; }
+.cheetah-steps article { padding:20px; border:1px solid var(--line); border-radius:9px; background:var(--surface); }
+.cheetah-steps p { margin:0; font-size:13px; }
+.cheetah-result { margin-top:28px; padding:24px; border:1px solid var(--line); border-radius:9px; background:var(--surface); }
+.cheetah-result h3 { margin:0 0 12px; }
+.cheetah-result p { margin:0; }
+.cheetah-result .cheetah-figure { margin-top:18px !important; }
+.cheetah-page .drawing-frame .image-button { height:360px; background:white; }
+.cheetah-page .drawing-frame img { width:100%; height:100%; object-fit:contain; transform:none; }
+.cheetah-record { padding:24px; margin-bottom:24px; background:var(--soft); border-left:2px solid var(--green); border-radius:0 9px 9px 0; }
+.cheetah-bom { margin-top:28px; padding:20px 24px; border:1px solid var(--line); border-radius:9px; background:var(--surface); }
+.cheetah-bom summary { cursor:pointer; color:var(--green); font:400 18px/1.6 Georgia,serif; }
+
+@media(max-width:700px) { .cheetah-pair,.cheetah-steps { grid-template-columns:1fr; } }
+@media(max-width:600px) { .cheetah-page .drawing-frame .image-button { height:250px; } }
+
+.cheetah-project-title { color:var(--green); font:400 25px/1.35 Georgia,serif; margin:0 0 14px; }
+.cheetah-video { margin-top:24px !important; }
+.cheetah-video video { display:block; width:100%; max-height:500px; aspect-ratio:16/9; object-fit:contain; background:white; border:1px solid var(--line); border-radius:9px; }
+.cheetah-page .cheetah-pose-frame .image-button { width:100%; background:white; }
+.cheetah-page .cheetah-pose-frame img { width:100%; aspect-ratio:16/9; height:auto; object-fit:contain; }
+.cheetah-pair .cheetah-video { margin-top:0 !important; }
+@media(max-width:600px) { .cheetah-project-title { font-size:21px; } }
+
+.cheetah-page .cheetah-pose-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin:24px 0; }
+.cheetah-page .cheetah-pose-grid img { width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; }
+@media(max-width:800px) { .cheetah-page .cheetah-pose-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; } }
+@media(max-width:480px) { .cheetah-page .cheetah-pose-grid { grid-template-columns:1fr; } }
+
+.cheetah-page #reference { padding-top:24px; padding-bottom:24px; }
+.cheetah-page #reference .cheetah-pose-grid { gap:12px 18px; margin:18px 0 0; }
+.cheetah-page #reference .cheetah-figure { margin-top:0 !important; }
+.cheetah-page #reference .image-button { height:170px; }
+.cheetah-page #reference .cheetah-pose-grid img { height:100%; aspect-ratio:auto; }
+@media(max-width:480px) { .cheetah-page #reference .cheetah-pose-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .cheetah-page #reference .image-button { height:110px; } }
+
+.cheetah-prototype-grid { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin-top:24px; align-items:start; }
+.cheetah-prototype-right { display:grid; gap:24px; }
+.cheetah-prototype-grid .cheetah-figure { margin-top:0 !important; }
+@media(max-width:700px) { .cheetah-prototype-grid { grid-template-columns:1fr; } }
+
+.cad-pose-viewer { display:grid; grid-template-columns:42px minmax(0,1fr) 42px; gap:12px; align-items:center; }
+.cad-pose-viewer .cheetah-figure { margin-top:12px !important; }
+.cad-pose-viewer .image-button { height:300px; width:100%; }
+.cad-pose-viewer img { height:100%; width:100%; object-fit:contain; }
+.cad-pose-arrow { width:42px; height:42px; border:1px solid var(--line); border-radius:50%; background:var(--surface); color:var(--green); font-size:24px; cursor:pointer; }
+.cad-pose-arrow:hover { background:var(--soft); }
+@media(max-width:600px) { .cad-pose-viewer { gap:6px; grid-template-columns:36px minmax(0,1fr) 36px; } .cad-pose-arrow { width:36px; height:36px; } .cad-pose-viewer .image-button { height:190px; } }
+
+.cheetah-page #mechanism .cheetah-pair { gap:20px; margin-top:20px; }
+.cheetah-page #mechanism .cheetah-pair .image-button { width:100%; height:280px; }
+.cheetah-page #mechanism .cheetah-pair img { width:100%; height:100%; object-fit:contain; }
+@media(max-width:700px) { .cheetah-page #mechanism .cheetah-pair .image-button { height:240px; } }
+
+.cheetah-page .cheetah-hero-video video { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; background:white; border-radius:9px; }

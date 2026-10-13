@@ -1219,3 +1219,6 @@ main p a, main dd a, main h3 a, footer a, .detail-navigation a,
 .work-greeting-highlight { display:inline-flex; align-items:center; gap:6px; flex-wrap:wrap; vertical-align:baseline; }
 .work-greeting-highlight .contact-icon-link { width:25px; height:25px; }
 @media(max-width:760px) { .sidebar > .sidebar-contact-links { display:none; } }
+/* Preserve the organisation links within the clickable paper card. */
+.publication.patent-report-card .publication-logo,
+.publication.patent-report-card .venue a { position:relative; z-index:4; }

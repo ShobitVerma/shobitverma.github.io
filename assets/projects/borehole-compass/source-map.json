@@ -9,17 +9,17 @@
     "photo-1.png": "1_4aajfA744wMRrsuZe_2CEjEWMvYLO2D",
     "photo-2.png": "1ZE4HhmoBjW1aKeG7jEZEgtzgdsYZJ3jw"
   },
-  "coverStatus": "Temporary collage",
+  "coverStatus": "User-provided collage",
   "cover": {
     "file": "hero-cover.png",
-    "editable": "hero-cover.svg",
-    "status": "Temporary collage",
-    "sources": {
-      "machined-compass.jpeg": "presentation.pdf page9 xref84",
-      "machining.jpeg": "presentation.pdf page9 xref80",
-      "diagram-37.jpeg": "presentation.pdf page2 xref37"
-    },
-    "policy": "Original finished component, machining photograph and borehole-section graph, arranged without cropping.",
+    "source": "cover-source.pdf",
+    "originalFile": "C:\\Users\\shobi\\Downloads\\me (6).pdf",
+    "page": 1,
+    "renderSize": [
+      1920,
+      1080
+    ],
+    "policy": "Complete supplied PDF page, rendered without cropping",
     "usedBy": [
       "index.html project-12",
       "projects/12.html"
