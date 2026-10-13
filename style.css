@@ -1211,3 +1211,11 @@ main p a, main dd a, main h3 a, footer a, .detail-navigation a,
 
 /* Unfinished project descriptions. */
 .project-detail .coming-soon { margin:20px 0; color:var(--green); font:400 clamp(34px,4vw,52px)/1.2 Georgia,serif; }
+/* Direct contact links beneath the portrait and in the introduction. */
+.contact-icon-link { display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; flex-shrink:0; color:var(--green); border-radius:5px; vertical-align:middle; }
+.contact-icon-link svg { display:block; width:19px; height:19px; }
+.contact-icon-link:hover { background:var(--soft); }
+.sidebar-contact-links { display:flex; align-items:center; gap:9px; margin:0 0 18px; }
+.work-greeting-highlight { display:inline-flex; align-items:center; gap:6px; flex-wrap:wrap; vertical-align:baseline; }
+.work-greeting-highlight .contact-icon-link { width:25px; height:25px; }
+@media(max-width:760px) { .sidebar > .sidebar-contact-links { display:none; } }

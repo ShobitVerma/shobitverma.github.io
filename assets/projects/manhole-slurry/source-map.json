@@ -9,5 +9,107 @@
       "index.html project-9",
       "projects/9.html"
     ]
+  },
+  "projectFolder": "https://drive.google.com/drive/folders/1Jp4VMdq3Pqk-JQf3LxEoIcOwBiRAfeRW",
+  "technicalReport": {
+    "url": "https://drive.google.com/file/d/1SNzWkLGxMOaRCagQE8V8El1WkL5h_yCu/view",
+    "file": "technical-report.pdf",
+    "pages": 8,
+    "sha256": "e6312cc766d7563137ae10203bc06fbf30e7f97996e26df05a7440e3cc6c2820"
+  },
+  "patentCertificate": {
+    "driveId": "16xPj4cd0wWaKRsS3NGKPyZ46E4S6R7KW",
+    "file": "patent-certificate.pdf",
+    "pages": 1
+  },
+  "combinedReport": {
+    "file": "patent-report.pdf",
+    "order": [
+      "patent-certificate.pdf",
+      "technical-report.pdf"
+    ],
+    "pages": 9
+  },
+  "designPresentation": {
+    "driveId": "1E41Rjxv6s3UBxJgEOQ3ZWUcN7lp5XPgJ",
+    "file": "design-presentation.pdf",
+    "pages": 32,
+    "conversion": "Original PowerPoint exported to PDF with Microsoft PowerPoint"
+  },
+  "cfdFigures": {
+    "folderId": "1T1YOqXWYbwEQbMUiE9ByRsS2FmKV9nAm",
+    "files": [
+      "geometry.png",
+      "impeller-mesh.png",
+      "vol-mesh.png",
+      "vel-contour.png",
+      "vel-streamlines.png",
+      "vel&shear-contour.png",
+      "velContour-TopView.png",
+      "velContourWithImpeller.png",
+      "Shaft-deformation.png",
+      "Shaft-strain.png"
+    ],
+    "handling": "Original files with legends preserved; no cropping"
+  },
+  "slideMedia": {
+    "9": [
+      "engaging-assembly.png",
+      "engaging-plan.png"
+    ],
+    "10": [
+      "shaft-locking-slots.png",
+      "shaft-release.png"
+    ],
+    "21": [
+      "operator-console.png"
+    ],
+    "22": [
+      "pcb-layout.jpg",
+      "electronics-placement.png"
+    ],
+    "23": [
+      "simulation-clockwise.png",
+      "simulation-counterclockwise.png",
+      "simulation-depth.png",
+      "simulation-off.png"
+    ],
+    "29": [
+      "shaft-factor-of-safety.jpg"
+    ],
+    "7": [
+      "shaft-extension.gif"
+    ],
+    "13": [
+      "blade-deployment.gif"
+    ]
+  },
+  "reportExtracts": {
+    "blade-sizing.png": "Page 4: sizing equations and complete blade states",
+    "fatigue-calculation.png": "Page 7: complete fatigue calculation and load diagram",
+    "bearing-selection.png": "Page 7: complete bearing selection calculation"
+  },
+  "localImages": {
+    "directory": "C:\\Users\\shobi\\Desktop\\Patents\\4. Retractable Manhole Slurry Agitator for Waste Reservoir Homogenization",
+    "files": [
+      "Blades.png",
+      "Circuit and control.jpg",
+      "Components_slurry agitator.png",
+      "Control.png",
+      "Matlab Simulink system.jpg",
+      "PCB.png",
+      "Product Architecture.jpg",
+      "Shaft.png",
+      "slurry agitator.png",
+      "view (1).png",
+      "view (2).png",
+      "view (3).png",
+      "view (4).png",
+      "view (5).png",
+      "view (6).png",
+      "view (7).png",
+      "view (8).png",
+      "view (9).png"
+    ]
   }
 }

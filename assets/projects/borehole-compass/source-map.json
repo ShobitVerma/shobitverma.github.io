@@ -24,5 +24,123 @@
       "index.html project-12",
       "projects/12.html"
     ]
+  },
+  "paperReport": {
+    "driveId": "1ex2VEyqBEQb-OoWcnpkMxB1MisyKVwFE",
+    "file": "paper-report.pdf",
+    "originalPages": 17,
+    "editedPages": 15,
+    "changes": [
+      "Removed original pages 1 and 2",
+      "Added project title and authors above abstract",
+      "Renumbered major sections 3/4/5 to 1/2/3 and all corresponding subsections/figure captions",
+      "Added page numbers and labels 1\u201315"
+    ],
+    "authorOrder": [
+      "Santu Kumar",
+      "Rabindra Kumar Sinha",
+      "Shobit Verma",
+      "Sikandar Kumar",
+      "Nishant Sinha",
+      "Sameer Sagar Sen"
+    ],
+    "authorsSource": "index.html Upcoming Papers entry"
+  },
+  "paperFigures": {
+    "deviation-example": {
+      "sourceXref": 35,
+      "file": "deviation-example.png"
+    },
+    "ring-drilling-example": {
+      "sourceXref": 38,
+      "file": "ring-drilling-example.png"
+    },
+    "blasthole-survey-example": {
+      "sourceXref": 39,
+      "file": "blasthole-survey-example.png"
+    },
+    "fracture-orientation-example": {
+      "sourceXref": 44,
+      "file": "fracture-orientation-example.png"
+    },
+    "sensor-board": {
+      "sourceXref": 47,
+      "file": "sensor-board.jpeg"
+    },
+    "sensor-schematic": {
+      "sourceXref": 48,
+      "file": "sensor-schematic.png"
+    },
+    "mobile-app": {
+      "sourceXref": 56,
+      "file": "mobile-app.png"
+    },
+    "churcha-field-test": {
+      "sourceXref": 63,
+      "file": "churcha-field-test.png"
+    },
+    "moonidih-field-team": {
+      "sourceXref": 64,
+      "file": "moonidih-field-team.png"
+    },
+    "moonidih-635m-team": {
+      "sourceXref": 67,
+      "file": "moonidih-635m-team.png"
+    }
+  },
+  "presentationFigures": {
+    "deviation-graph-1": {
+      "xref": 41,
+      "file": "deviation-graph-1.png"
+    },
+    "deviation-graph-2": {
+      "xref": 44,
+      "file": "deviation-graph-2.png"
+    },
+    "dimensioned-probe": {
+      "xref": 79,
+      "file": "dimensioned-probe.jpeg"
+    },
+    "nylon-housing": {
+      "xref": 82,
+      "file": "nylon-housing.jpeg"
+    },
+    "shock-spring": {
+      "xref": 83,
+      "file": "shock-spring.jpeg"
+    },
+    "lab-calibration": {
+      "xref": 87,
+      "file": "lab-calibration.jpeg"
+    },
+    "moonidih-testing": {
+      "xref": 91,
+      "file": "moonidih-testing.jpeg"
+    },
+    "churcha-testing": {
+      "xref": 95,
+      "file": "churcha-testing.jpeg"
+    },
+    "churcha-team": {
+      "xref": 98,
+      "file": "churcha-team.jpeg"
+    },
+    "product-services": {
+      "xref": 103,
+      "file": "product-services.jpeg"
+    }
+  },
+  "page": {
+    "file": "projects/12.html",
+    "sections": [
+      "Design problem",
+      "Measurement principle",
+      "Mechanical design",
+      "Electronics and logging",
+      "Mobile application",
+      "Calibration",
+      "Mine field tests",
+      "Paper and documents"
+    ]
   }
 }

@@ -312,12 +312,13 @@ if (!reducedMotion.matches && 'IntersectionObserver' in window) {
   document.documentElement.classList.add('motion-ready');
 }
 
-// Weighted discovery: only the six requested project pages are eligible.
+// Random discovery among the selected project pages.
 const randomProjectChoices = [
   { id: 'project-harvesting', weight: 1 },
   { id: 'project-joystick', weight: 1 },
   { id: 'project-respiratory', weight: 1 },
   { id: 'project-needle', weight: 1 },
+  { id: 'project-8', weight: 1 },
   { id: 'project-12', weight: 1 },
   { id: 'project-7', weight: 1 }
 ];
