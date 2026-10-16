@@ -1,41 +1,42 @@
-﻿(() => {
-  const source = new URL('assets/favicon-cat-source.png', document.currentScript.src);
-  const image = new Image();
-  image.onload = () => {
-    const canvas = document.createElement('canvas');
-    canvas.width = canvas.height = 32;
-    const context = canvas.getContext('2d');
-    if (!context) return;
-    const frames = [];
-    try {
-      for (let step = 0; step < 36; step++) {
-        context.clearRect(0, 0, 32, 32);
-        context.save();
-        context.beginPath();
-        context.arc(16, 16, 16, 0, Math.PI * 2);
-        context.clip();
-        context.translate(16, 16);
-        context.rotate(step * Math.PI * 2 / 36);
-        const scale = 32 / Math.min(image.width, image.height);
-        context.drawImage(image, -image.width * scale / 2, -image.height * scale / 2,
-          image.width * scale, image.height * scale);
-        context.restore();
-        frames.push(canvas.toDataURL('image/png'));
-      }
-    } catch { return; }
-    document.querySelectorAll('link[rel="icon"]').forEach(icon => icon.remove());
+(() => {
+  const frameScript = new URL('assets/favicon-frames.js', document.currentScript.src);
+  let frames = null;
+  let frame = 0;
+  let timer = null;
+
+  function draw() {
+    if (!frames?.length) return;
+    const previous = document.getElementById('rotating-favicon');
     const icon = document.createElement('link');
+    icon.id = 'rotating-favicon';
     icon.rel = 'icon';
     icon.type = 'image/png';
     icon.sizes = '32x32';
-    icon.id = 'rotating-favicon';
-    document.head.append(icon);
-    let frame = 0;
-    const draw = () => { icon.href = frames[frame++ % frames.length]; };
+    icon.href = frames[frame++ % frames.length];
+    if (previous) previous.replaceWith(icon);
+    else {
+      document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"]').forEach(link => link.remove());
+      document.head.append(icon);
+    }
+  }
+
+  function start() {
+    if (!frames?.length || timer !== null) return;
     draw();
-    let timer = setInterval(draw, 120);
-    window.addEventListener('pagehide', () => { clearInterval(timer); timer = null; });
-    window.addEventListener('pageshow', () => { if (!timer) timer = setInterval(draw, 120); });
+    timer = setInterval(draw, 150);
+  }
+  function stop() {
+    clearInterval(timer);
+    timer = null;
+  }
+
+  const script = document.createElement('script');
+  script.src = frameScript.href;
+  script.onload = () => {
+    frames = window.portfolioFaviconFrames;
+    start();
   };
-  image.src = source.href;
+  document.head.append(script);
+  window.addEventListener('pagehide', stop);
+  window.addEventListener('pageshow', start);
 })();

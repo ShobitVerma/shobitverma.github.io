@@ -130,7 +130,7 @@
   function showCadPose(value) {
     cadPose = (value + 5) % 6 + 1;
     const image = document.getElementById('cad-pose-image');
-    image.src = '../assets/projects/cheetah/cad-pose-' + cadPose + '.jpg';
+    image.src = '../assets/projects/cheetah/cad-pose-' + cadPose + '-centred.svg';
     image.alt = 'CAD mechanism: pose ' + cadPose;
     image.closest('button').setAttribute('aria-label', 'Enlarge CAD pose ' + cadPose);
     document.getElementById('cad-pose-caption').textContent = 'Pose ' + cadPose;

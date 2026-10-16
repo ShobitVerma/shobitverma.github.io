@@ -24,7 +24,7 @@ if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
 <script>try { const theme = localStorage.getItem('portfolio-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); document.documentElement.dataset.theme = theme; } catch {}</script><link href="style.css" rel="stylesheet"/>
 <script defer="" src="script.js"></script>
 <script defer="" src="cursor-effects.js"></script>
-<link href="favicon.ico" rel="icon" sizes="any"/><link href="assets/favicon-cat-32.png" rel="icon" sizes="32x32" type="image/png"/><link href="assets/favicon-cat-180.png" rel="apple-touch-icon" sizes="180x180"/><script defer="" src="favicon.js"></script></head>
+<link href="favicon.ico" rel="icon" sizes="any"/><link href="assets/favicon-cat-32.png" rel="icon" sizes="32x32" type="image/png"/><link href="assets/favicon-cat-180.png" rel="apple-touch-icon" sizes="180x180"/><script defer="" src="favicon.js"></script><script defer="" src="document-links.js?v=2"></script></head>
 <body><svg aria-hidden="true" class="vector-library" height="0" viewbox="0 0 320 100" width="0" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <symbol id="mechanism" viewbox="0 0 320 100">
@@ -58,7 +58,7 @@ if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
 <nav aria-label="Main navigation" id="navigation"><a class="active" href="#about">About <span>01</span></a><a href="#projects">Projects <span>02</span></a><a href="#experience">Experience <span>03</span></a><a href="#international-patents">International patents <span>04</span></a><a href="#domestic-patents">Domestic patents <span>05</span></a><a href="#publications">Upcoming papers <span>06</span></a><a href="#awards">Awards <span>07</span></a><a href="#education">Education <span>08</span></a><a href="#contact">Contact <span>09</span></a></nav>
 </aside>
 <main id="main"><div aria-hidden="true" class="reading-progress"><span id="reading-progress"></span></div>
-<header aria-label="Website header" class="page-toolbar"><div class="header-actions"><a class="header-contact" href="#contact">Contact</a><a class="resume-button" href="Shobit_Verma_Resume.pdf" rel="noopener" target="_blank">View resume <span aria-hidden="true">↗</span></a><button aria-label="Switch to dark theme" aria-pressed="false" class="theme-toggle js-only" type="button"><svg aria-hidden="true" class="theme-moon" viewbox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"></path></svg><svg aria-hidden="true" class="theme-sun" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button></div></header>
+<header aria-label="Website header" class="page-toolbar"><div class="header-actions"><a class="header-contact" href="#contact">Contact</a><a class="resume-button" download="Shobit_Verma Resume file.pdf" href="Shobit_Verma_Resume.pdf" id="view-resume" rel="noopener" target="_blank">View resume <span aria-hidden="true">↗</span></a><button aria-label="Switch to dark theme" aria-pressed="false" class="theme-toggle js-only" type="button"><svg aria-hidden="true" class="theme-moon" viewbox="0 0 24 24"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14Z"></path></svg><svg aria-hidden="true" class="theme-sun" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"></path></svg></button></div></header>
 <section aria-labelledby="profile-heading" class="profile" id="about">
 <h2 id="profile-heading">Shobit Verma</h2>
 <p class="profile-subtitle">Mechanical Design Engineer · Robotics &amp; Mechanism Design</p>
@@ -131,12 +131,12 @@ if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
 <div class="record-header"><h3 tabindex="-1"><a aria-label="View project: Self-Balancing Robotic Bike with an Omni-Directional Wheel Drive System" class="project-card-link" href="projects/10.html">Self-Balancing Robotic Bike with an Omni-Directional Wheel Drive System</a></h3></div>
 <p class="project-overview">Developed a self-balancing robotic bike with dual omnidirectional wheels. Derived nonlinear dynamics using Lagrangian mechanics and applied LQR feedback control for upright stability and multidirectional motion, validating physical prototypes.</p>
 <p class="project-patent-link"><a href="#patent-519666-001">Indian Patent ID: 519666-001</a></p></div>
-</article><article class="project project-card" data-category="robotics" data-medtech="true" id="project-ultrasound"><figure class="project-image"><img alt="Assembled parallel robot for remote ultrasound" height="1120" loading="lazy" src="assets/projects/ultrasound.jpg" width="840"/></figure>
+</article><article class="project project-card" data-category="robotics" data-medtech="true" id="project-ultrasound"><figure class="project-image"><img alt="Stewart ultrasound platform collage: complete assembly, CAD design, hardware and controller" height="941" loading="lazy" src="assets/projects/ultrasound/hero-cover.png" width="1672"/></figure>
 <div class="record-content"><div class="project-meta">
 <small><a class="academic-link" href="https://people.iitism.ac.in/~arunudai/#lab" rel="noopener noreferrer" target="_blank">Robotics Lab</a> · IIT (ISM) Dhanbad</small>
 </div>
 <div class="record-header"><h3 tabindex="-1"><a aria-label="View project: 6-SPS Parallel Robot for Aseptic Remote Ultrasound" class="project-card-link" href="projects/ultrasound.html">6-SPS Parallel Robot for Aseptic Remote Ultrasound</a></h3></div>
-<p class="project-overview">Contributed mechanical design and assembly to a 6-SPS parallel robot for aseptic remote ultrasound at AIIMS Jodhpur, in collaboration with Aduza. Focused on mechanical integration and assembly of the parallel-robot system.</p>
+<p class="project-overview">Assisted with mechanical design, development and assembly of a Stewart platform for remote ultrasound with ADUZA. Controls, circuit design and programming were handled by the project team.</p>
 </div>
 </article><article class="project project-card" data-category="instrumentation" data-patent-group="domestic" id="project-12"><figure class="project-image"><img alt="Borehole compass collage with probe CAD, machined components, borehole trajectory diagrams, PCB and field testing" height="1080" loading="lazy" src="assets/projects/borehole-compass/hero-cover.png" width="1920"/></figure>
 <div class="record-content"><div class="project-meta">
@@ -183,7 +183,7 @@ if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
 <p class="position">Undergraduate Researcher under <a class="academic-link professor-name" href="https://www.iitism.ac.in/faculty-details?faculty=arunudai" rel="noopener noreferrer" target="_blank">Prof. Arun Dayal Udai</a></p>
 <p class="record-date">Sep 2023 – Feb 2025</p>
 <details class="section-disclosure"><summary>Responsibilities &amp; technical work</summary><ul class="academic-list">
-<li>Developed a 6-SPS parallel robot for aseptic remote ultrasound for AIIMS Jodhpur hospital in collaboration with Aduza.</li>
+<li>Assisted with mechanical design, development and assembly of a 6-SPS parallel robot for remote ultrasound for AIIMS Jodhpur, in collaboration with ADUZA.</li>
 <li>Bachelor thesis on a 6-DOF Stewart Gough Platform for Potentiometer-Based Joystick using forward kinematic control.</li>
 <li>Work on the two Stewart-platform projects included inverse/forward kinematic modeling, CAE, waterjet, 3D printing, welding, circuit design, and actuator motion control. My contribution to the ultrasound robot was mechanical design and assembly; I did not build its circuit or write its code. Both parallel robots were deployed for industrial use.</li>
 <li>Used a Yaskawa GP-12 industrial arm for increasing robot accuracy. Patent granted for the Stewart Joystick (UK ID: 6552818).</li>
@@ -325,7 +325,7 @@ if (performance.getEntriesByType('navigation')[0]?.type === 'reload') {
 <div><dt>Email</dt><dd><a href="mailto:shobitm2d2@gmail.com">shobitm2d2@gmail.com</a></dd></div>
 <div><dt>Phone</dt><dd><a href="tel:+917500003122">+91 7500003122</a></dd></div>
 <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/shobit-verma15/" rel="noopener noreferrer" target="_blank">shobit-verma15</a></dd></div>
-<div><dt>Resume</dt><dd><a download="" href="Shobit_Verma_Resume.pdf">Download resume (PDF)</a></dd></div>
+<div><dt>Resume</dt><dd><a download="Shobit_Verma Resume file.pdf" href="Shobit_Verma_Resume.pdf" rel="noopener" target="_blank">Download resume (PDF)</a></dd></div>
 </dl>
 </section><footer>
 <span>© <span id="year">2026</span> Shobit Verma</span>

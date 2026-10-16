@@ -61,3 +61,13 @@
 @media(max-width:700px) { .cheetah-page #mechanism .cheetah-pair .image-button { height:240px; } }
 
 .cheetah-page .cheetah-hero-video video { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; background:white; border-radius:9px; }
+
+/* The combined reference needs its full natural height. */
+.cheetah-page #reference > .cheetah-figure .image-button { height:auto; width:100%; }
+.cheetah-page #reference > .cheetah-figure img { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; }
+
+/* Strengthen the gait reference outlines and point colours. */
+.cheetah-page #reference .cheetah-pose-grid img { filter:none; }
+
+.cheetah-page .cad-pose-viewer .image-button { display:flex; align-items:center; justify-content:center; background:transparent; }
+.cheetah-page .cad-pose-viewer img { display:block; object-fit:contain; object-position:center; padding:8px; box-sizing:border-box; }

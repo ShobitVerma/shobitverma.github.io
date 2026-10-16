@@ -46,5 +46,11 @@
       "Shared design-filing receipt",
       "Authored kinetic art report"
     ]
+  },
+  "simulationVideo": {
+    "file": "gallop-reference.mp4",
+    "driveId": "1vJvO_53Q0YDhHKdGMTEgMqANHgoY3nw2",
+    "durationSeconds": 22.05,
+    "cadPoseSnapshots": "cad-pose-1.jpg through cad-pose-6.jpg"
   }
 }

@@ -905,10 +905,10 @@ html[data-theme="dark"] .project-feature-badge::after {
   transition: opacity .25s;
 }
 @media (hover: hover) and (pointer: fine) {
-  :is(.project-card, .patent-row, .institution-row, .publication, .contact-intro):hover > .card-tint-overlay { opacity: .18; }
+  :is(.project-card, .patent-row, .institution-row:not(#experience .institution-row), .publication, .contact-intro):hover > .card-tint-overlay { opacity: .18; }
 }
 .pointer-highlight > .card-tint-overlay { opacity: .18; }
-:is(.project-card, .patent-row, .institution-row, .publication, .contact-intro).pointer-highlight { border-color: var(--green); background-color: var(--soft); }
+:is(.project-card, .patent-row, .institution-row:not(#experience .institution-row), .publication, .contact-intro).pointer-highlight { border-color: var(--green); background-color: var(--soft); }
 html[data-theme="dark"] .card-tint-overlay { mix-blend-mode: screen; }
 .mouse-trail-line {
   position: fixed;
@@ -1222,3 +1222,9 @@ main p a, main dd a, main h3 a, footer a, .detail-navigation a,
 /* Preserve the organisation links within the clickable paper card. */
 .publication.patent-report-card .publication-logo,
 .publication.patent-report-card .venue a { position:relative; z-index:4; }
+
+/* Subtle zoom for the clickable research paper card. */
+#publications .publication.patent-report-card { transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease; transform-origin:center; }
+@media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  #publications .publication.patent-report-card:hover { transform:scale(1.015); }
+}

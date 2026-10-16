@@ -12,7 +12,7 @@ A responsive, buildless portfolio using HTML, CSS, and JavaScript. It retains th
 
 ## Source
 
-The primary source is the supplied two-page `Shobit_Verma (6).pdf` from Downloads. The project did not initially contain `Shobit_Verma_Resume.pdf`; an identical copy is now included under that name for the resume download links.
+The website resume is `Shobit_Verma_Resume.pdf`, updated from the latest file supplied in Downloads. Both the view and download links use this file.
 
 The supplied 24-page `Portfolio_ Shobit Verma.pdf` is a secondary reference for project development and imagery. Page 19 explicitly limits Shobit's ultrasound-robot contribution to mechanical design and assembly, excluding circuits and code; the experience and project entries reflect that distinction. Five original project images are extracted into `assets/projects/` from pages 4, 9, 12, 18, and 21. They appear in the project explorer and accessible image gallery.
 

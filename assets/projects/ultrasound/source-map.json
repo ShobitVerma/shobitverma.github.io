@@ -1,0 +1,46 @@
+{
+  "portfolio": {
+    "driveId": "1vBgKEBlzBxP2D2RK0FS4SbuNIEvccJVz",
+    "pages": [
+      19,
+      20,
+      21
+    ]
+  },
+  "youtube": {
+    "url": "https://youtu.be/9Tb3bR9vA5g",
+    "title": "ADUZA Stewart Platform",
+    "frames": {
+      "demonstration-assembly.jpg": 72,
+      "demonstration-controller.jpg": 80
+    }
+  },
+  "applicationProfile": "https://www.aduza.in/50kg-payload-motion-platform/",
+  "contribution": "Assisted mechanical design, development and assembly; controls and programming by the project team.",
+  "cover": {
+    "file": "hero-cover.png",
+    "layout": "Five panels; existing complete assembly is largest",
+    "inputs": [
+      "complete-assembly.jpg",
+      "final-cad.jpeg",
+      "joint-detail.jpeg",
+      "demonstration-assembly.jpg",
+      "demonstration-controller.jpg"
+    ]
+  },
+  "images": {
+    "concept-cad.png": "portfolio-20-image-3.png",
+    "geometry-layout.png": "portfolio-20-image-4.png",
+    "final-cad-side.png": "portfolio-20-image-2.png",
+    "final-cad-top.png": "portfolio-20-image-1.png",
+    "joint-detail.jpeg": "portfolio-20-image-10.jpeg",
+    "actuator-mount.jpeg": "portfolio-20-image-11.jpeg",
+    "final-cad.jpeg": "portfolio-20-image-9.jpeg",
+    "kinematic-model.png": "portfolio-20-image-6.png",
+    "control-model.png": "portfolio-20-image-5.png",
+    "axis-controller.png": "portfolio-20-image-8.png",
+    "hardware-assembly.png": "portfolio-21-image-6.png",
+    "platform-controller.png": "portfolio-21-image-4.png",
+    "controller-cabinet.png": "portfolio-21-image-8.png"
+  }
+}

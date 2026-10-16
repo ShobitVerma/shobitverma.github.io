@@ -312,16 +312,11 @@ if (!reducedMotion.matches && 'IntersectionObserver' in window) {
   document.documentElement.classList.add('motion-ready');
 }
 
-// Random discovery among the selected project pages.
-const randomProjectChoices = [
-  { id: 'project-harvesting', weight: 1 },
-  { id: 'project-joystick', weight: 1 },
-  { id: 'project-respiratory', weight: 1 },
-  { id: 'project-needle', weight: 1 },
-  { id: 'project-8', weight: 1 },
-  { id: 'project-12', weight: 1 },
-  { id: 'project-7', weight: 1 }
-];
+// Include all projects except the self-balancing bike, with rare picks for two projects.
+const rareRandomProjects = new Set(['project-9', 'project-ultrasound']);
+const randomProjectChoices = [...document.querySelectorAll('.project-card')]
+  .filter(project => project.id !== 'project-10')
+  .map(project => ({ id: project.id, weight: rareRandomProjects.has(project.id) ? 0.08 : 1 }));
 function pickRandomProject() {
   const total = randomProjectChoices.reduce((sum, project) => sum + project.weight, 0);
   let draw = Math.random() * total;
@@ -385,7 +380,7 @@ let highlightTimer = null;
 function highlightSelection(target) {
   highlightedElement?.classList.remove('pointer-highlight');
   clearTimeout(highlightTimer);
-  highlightedElement = target.closest('.project-card, .patent-row, .institution-row, .publication, .contact-intro') || target.closest('a, button, summary, input');
+  highlightedElement = target.closest('.project-card, .patent-row, .institution-row:not(#experience .institution-row), .publication, .contact-intro') || target.closest('a, button, summary, input');
   highlightedElement?.classList.add('pointer-highlight');
   highlightTimer = setTimeout(() => highlightedElement?.classList.remove('pointer-highlight'), 900);
 }
@@ -395,7 +390,7 @@ document.addEventListener('click', event => {
 
 
 // Tint the entire card, including its image, without blocking its controls.
-document.querySelectorAll('.project-card, .patent-row, .institution-row, .publication, .contact-intro').forEach(card => {
+document.querySelectorAll('.project-card, .patent-row, .institution-row:not(#experience .institution-row), .publication, .contact-intro').forEach(card => {
   const overlay = document.createElement('span');
   overlay.className = 'card-tint-overlay';
   overlay.setAttribute('aria-hidden', 'true');

@@ -1,0 +1,48 @@
+/* Stewart ultrasound project. */
+.ultrasound-page .case-toc { border-bottom:1px solid var(--line); }
+.ultrasound-page .case-hero h1 { max-width:920px; }
+.ultrasound-page .contribution-note { border-left:3px solid var(--green); padding:12px 18px; margin:18px 0; background:var(--soft); border-radius:0 8px 8px 0; }
+.ultrasound-page .contribution-note p { margin:0; font-size:16px; line-height:1.65; }
+.ultrasound-overview { padding-top:26px; margin-top:26px; border-top:1px solid var(--line); }
+.ultrasound-page .source-note,.ultrasound-page .section-credit { font-size:12px; color:var(--muted); }
+.ultrasound-page .source-note a { color:var(--green); text-decoration:underline; text-underline-offset:3px; }
+.ultrasound-figure { margin-top:24px !important; }
+.ultrasound-figure .image-button { width:100%; background:white; }
+.ultrasound-figure img { display:block; width:100%; height:auto; object-fit:contain; }
+.ultrasound-pair,.ultrasound-cad-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; margin-top:24px; align-items:start; }
+.ultrasound-pair .ultrasound-figure,.ultrasound-cad-grid .ultrasound-figure { margin-top:0 !important; }
+.ultrasound-pair .image-button { height:280px; }
+.ultrasound-cad-grid .image-button { height:270px; }
+.ultrasound-pair img,.ultrasound-cad-grid img { height:100%; }
+.ultrasound-steps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; margin-top:24px; }
+.ultrasound-steps article { padding:18px; border:1px solid var(--line); border-radius:9px; background:var(--surface); }
+.ultrasound-steps article p { margin:0; font-size:13px; }
+.ultrasound-hardware { display:grid; grid-template-columns:.85fr 1fr; gap:24px; margin-top:24px; align-items:start; }
+.ultrasound-hardware > .ultrasound-figure,.ultrasound-hardware > div > .ultrasound-figure:first-child { margin-top:0 !important; }
+.ultrasound-motion-table { border:1px solid var(--line); border-radius:9px; overflow:hidden; background:var(--surface); margin-top:22px; }
+.ultrasound-motion-table table { width:100%; border-collapse:collapse; text-align:left; }
+.ultrasound-motion-table caption { text-align:left; padding:16px 20px; color:var(--green); background:var(--soft); font:18px Georgia,serif; }
+.ultrasound-motion-table th,.ultrasound-motion-table td { text-align:left; padding:12px 20px; border-bottom:1px solid var(--line); font-weight:400; }
+.ultrasound-motion-table thead th { font-weight:600; }
+.ultrasound-motion-table tbody tr:last-child > * { border-bottom:0; }
+.ultrasound-control-flow { display:flex; flex-wrap:wrap; align-items:center; gap:10px; padding:20px; margin-top:24px; border:1px solid var(--line); border-radius:9px; background:var(--surface); }
+.ultrasound-control-flow span { padding:9px 12px; background:var(--soft); color:var(--green); border-radius:6px; font-size:13px; }
+.ultrasound-control-flow b { font-weight:400; color:var(--green); }
+.ultrasound-control-flow p { width:100%; margin:6px 0 0; font-size:12px; color:var(--muted); }
+.ultrasound-video { aspect-ratio:16/9; margin-top:22px; border:1px solid var(--line); border-radius:9px; overflow:hidden; background:var(--surface); }
+.ultrasound-video iframe { display:block; width:100%; height:100%; border:0; }
+.ultrasound-page .video-links { display:flex; flex-wrap:wrap; gap:12px 24px; margin-top:12px; font-size:12px; color:var(--green); }
+@media(max-width:760px) { .ultrasound-steps { grid-template-columns:1fr; gap:12px; } .ultrasound-hardware { grid-template-columns:1fr 1fr; gap:16px; } .ultrasound-page .contribution-note p { font-size:14px; } }
+@media(max-width:600px) { .ultrasound-pair,.ultrasound-cad-grid,.ultrasound-hardware { grid-template-columns:1fr; } .ultrasound-pair .image-button,.ultrasound-cad-grid .image-button { height:240px; } .ultrasound-page .case-hero h1 { font-size:32px; } .ultrasound-control-flow { padding:14px; gap:8px; } }
+
+.ultrasound-page .contribution-note { display:flex; align-items:flex-start; gap:12px; }
+.ultrasound-page .contribution-note .note-icon { flex:0 0 auto; font-size:23px; line-height:1.45; }
+.ultrasound-page .contribution-note strong { font-weight:700; }
+
+.ultrasound-page .ultrasound-project-title { font:400 25px/1.35 Georgia,serif; color:var(--green); margin:0 0 18px; }
+@media(max-width:600px) { .ultrasound-page .ultrasound-project-title { font-size:21px; } }
+
+@media(min-width:801px) {
+  .ultrasound-page .case-hero { container-type:inline-size; }
+  .ultrasound-page .case-hero h1 { max-width:none; font-size:3.1cqi; white-space:nowrap; }
+}
