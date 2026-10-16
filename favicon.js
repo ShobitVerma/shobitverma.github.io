@@ -1,7 +1,8 @@
 (() => {
   const frameScript = new URL('assets/favicon-frames.js', document.currentScript.src);
   let frames = null;
-  let frame = 0;
+  let worker = null;
+  let workerUrl = null;
   let timer = null;
 
   function draw() {
@@ -12,7 +13,7 @@
     icon.rel = 'icon';
     icon.type = 'image/png';
     icon.sizes = '32x32';
-    icon.href = frames[frame++ % frames.length];
+    icon.href = frames[Math.floor(Date.now() / 150) % frames.length];
     if (previous) previous.replaceWith(icon);
     else {
       document.querySelectorAll('link[rel="icon"], link[rel="shortcut icon"]').forEach(link => link.remove());
@@ -20,12 +21,33 @@
     }
   }
 
+  function fallback() {
+    if (worker) worker.terminate();
+    worker = null;
+    if (workerUrl) URL.revokeObjectURL(workerUrl);
+    workerUrl = null;
+    if (timer === null) timer = setInterval(draw, 150);
+  }
   function start() {
-    if (!frames?.length || timer !== null) return;
+    if (!frames?.length || worker || timer !== null) return;
     draw();
-    timer = setInterval(draw, 150);
+    try {
+      // A worker keeps its clock independent of main-page rendering work.
+      workerUrl = URL.createObjectURL(new Blob([
+        'setInterval(() => postMessage(Date.now()), 150);'
+      ], { type: 'text/javascript' }));
+      worker = new Worker(workerUrl);
+      worker.onmessage = draw;
+      worker.onerror = fallback;
+    } catch {
+      fallback();
+    }
   }
   function stop() {
+    if (worker) worker.terminate();
+    worker = null;
+    if (workerUrl) URL.revokeObjectURL(workerUrl);
+    workerUrl = null;
     clearInterval(timer);
     timer = null;
   }
@@ -39,4 +61,7 @@
   document.head.append(script);
   window.addEventListener('pagehide', stop);
   window.addEventListener('pageshow', start);
+  window.addEventListener('focus', draw);
+  document.addEventListener('visibilitychange', draw);
+  document.addEventListener('resume', () => { draw(); start(); });
 })();
